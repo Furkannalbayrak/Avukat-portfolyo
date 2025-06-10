@@ -25,11 +25,11 @@ const About = () => {
                 </p>
               </div>
 
-              <div className="about-container-secondDiv md:w-1/2">
+              <div className="about-container-secondDiv">
                 <img
                   src="https://i.pinimg.com/236x/94/63/56/946356dabae411d1cf97997d861fb703.jpg"
-                  alt="Avukat Abdullah Boylu"
-                  className="rounded-lg shadow-lg max-w-full h-auto mx-auto"
+                  alt="Avukat Beyza Albayrak"
+                  className='hidden lg:block'
                 />
               </div>
 
@@ -37,7 +37,7 @@ const About = () => {
           </div>
 
           <div className=' flex justify-center'>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-10/12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-9/12">
               <div>
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <h3 className="text-xl font-semibold mb-4">Eğitim</h3>
@@ -46,7 +46,7 @@ const About = () => {
                       <FaGraduationCap className="text-2xl text-blue-500 mr-3" />
                       <div>
                         <h4 className="font-medium">Hukuk Fakültesi</h4>
-                        <p className="text-gray-600">İstanbul Üniversitesi</p>
+                        <p className="text-gray-600">Kocaeli Üniversitesi</p>
                       </div>
                     </div>
                     <div className="flex items-start">
