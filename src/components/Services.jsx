@@ -1,107 +1,133 @@
 import React from 'react';
-import { 
-  FaGavel, 
-  FaCertificate, 
-  FaBriefcase, 
-  FaFileContract, 
-  FaBuilding, 
-  FaGavel as FaGavel2,
-  FaUsers,
-  FaHandshake,
+import { FaArrowRightLong } from "react-icons/fa6";
+import {
+  FaGavel,
+  FaFileContract,
   FaBalanceScale,
+  FaHandshake,
+  FaUniversity,
   FaLandmark,
-  FaTools
+  FaUserShield,
+  FaHammer,
+  FaHeartbeat,
+  FaLaptopCode,
+  FaFileInvoiceDollar,
+  FaUserFriends,
+  FaKey,
+  FaChild,
+  FaHome,
+  FaMoneyCheckAlt,
+  FaUsers,
+  FaShieldAlt,
 } from 'react-icons/fa';
 
 const Services = () => {
   const services = [
     {
       icon: FaGavel,
-      title: "Avukatlık",
-      description: "Mahkeme davalarında profesyonel temsil",
-      subpoints: [
-        "İdare mahkemesi davaları",
-        "Askeri mahkemesi davaları",
-        "Aile hukuku davaları"
-      ]
+      title: "Ceza Hukuku"
     },
     {
-      icon: FaCertificate,
-      title: "Hukuki Danışmanlık",
-      description: "Hukuki konularda profesyonel danışmanlık",
-      subpoints: [
-        "İş hukuku danışmanlığı",
-        "Ticaret hukuku danışmanlığı",
-        "İdare hukuku danışmanlığı"
-      ]
-    },
-    {
-      icon: FaUsers,
-      title: "İş Hukuku",
-      description: "İş hukuku konularında danışmanlık",
-      subpoints: [
-        "İş sözleşmeleri",
-        "İş yerinde sorunlar",
-        "İşten çıkarılma davaları"
-      ]
-    },
-    {
-      icon: FaHandshake,
-      title: "Sözleşme Danışmanlığı",
-      description: "Sözleşme hazırlama ve gözden geçirme",
-      subpoints: [
-        "Sözleşme taslağı hazırlama",
-        "Sözleşme gözden geçirme",
-        "Sözleşme ihlali davaları"
-      ]
-    },
-    {
-      icon: FaLandmark,
-      title: "Ticaret Hukuku",
-      description: "Ticaret hukuku konularında danışmanlık",
-      subpoints: [
-        "Şirket kurulumu",
-        "Şirket yönetim kuralları",
-        "Şirket anlaşmaları"
-      ]
+      icon: FaMoneyCheckAlt,
+      title: "Borçlar Hukuku"
     },
     {
       icon: FaBalanceScale,
-      title: "İdare Hukuku",
-      description: "İdare hukuku konularında danışmanlık",
-      subpoints: [
-        "İdare mahkemesi davaları",
-        "İdare kararlarına itiraz",
-        "İdari cezalar"
-      ]
-    }
+      title: "Ticaret Hukuku"
+    },
+    {
+      icon: FaHandshake,
+      title: "İş Hukuku"
+    },
+    {
+      icon: FaUniversity,
+      title: "İdare Hukuku"
+    },
+    {
+      icon: FaFileInvoiceDollar,
+      title: "Vergi Hukuku"
+    },
+    {
+      icon: FaLandmark,
+      title: "Anayasa Hukuku"
+    },
+    {
+      icon: FaFileContract,
+      title: "Sözleşmeler Hukuku"
+    },
+    {
+      icon: FaUserFriends,
+      title: "Aile Hukuku"
+    },
+    {
+      icon: FaKey,
+      title: "Miras Hukuku"
+    },
+    {
+      icon: FaHome,
+      title: "Gayrimenkul Hukuku"
+    },
+    // {
+    //   icon: FaUsers,
+    //   title: "Tüketici Hukuku"
+    // },
+    // {
+    //   icon: FaHeartbeat,
+    //   title: "Sağlık Hukuku"
+    // },
+    // {
+    //   icon: FaLaptopCode,
+    //   title: "Bilişim Hukuku"
+    // },
+    // {
+    //   icon: FaShieldAlt,
+    //   title: "Sigorta Hukuku"
+    // },
+    // {
+    //   icon: FaHammer,
+    //   title: "İcra ve İflas Hukuku"
+    // },
+    // {
+    //   icon: FaUserShield,
+    //   title: "İnsan Hakları Hukuku"
+    // },
+    // {
+    //   icon: FaChild,
+    //   title: "Çocuk Hakları Hukuku"
+    // }
+
   ];
 
   return (
-    <section className="py-20">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Çalışma Alanlarım
-          </h2>
-        </div>
+    <section className="py-20 bg-gray-200 flex justify-center">
+      <div className='max-w-6xl'>
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-poppins mb-6">
+              Faaliyet Alanlarım
+            </h2>
+          </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-              <service.icon className="text-4xl text-blue-500 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-              <p className="text-gray-600 mb-4">{service.description}</p>
-              <ul className="space-y-2">
-                {service.subpoints.map((point, i) => (
-                  <li key={i} className="flex items-center text-gray-600">
-                    <span className="w-4 h-4 mr-2" />
-                    {point}
-                  </li>
-                ))}
-              </ul>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-lg shadow-lg p-6 lg:h-[240px] h-[215px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+              >
+                <div className="flex flex-col items-center text-center">
+                  <service.icon className="text-8xl mb-6" style={{ color: "#d6a543" }} />
+                  <h3 className="text-2xl font-poppins">{service.title}</h3>
+                </div>
+              </div>
+            ))}
+            <div className="bg-white rounded-lg shadow-lg p-6 lg:h-[240px] h-[215px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer">
+              <div className="flex flex-col items-center text-center">
+                <h3 className='text-2xl font-poppins mt-4'> Tüm Faatliyet</h3>
+                <h3 className='text-2xl font-poppins'> Alanlarına Göz at</h3>
+                <p><FaArrowRightLong className='text-6xl mt-5'/></p>
+              </div>
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </section>
