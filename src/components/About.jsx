@@ -47,21 +47,21 @@ const About = () => {
                   <h3 className="text-2xl font-semibold mb-6 ">Eğitim</h3>
                   <div className="space-y-5 ">
                     <div className="flex items-start  transition duration-150 hover:translate-x-4">
-                      <FaGraduationCap className="text-2xl text-blue-500 mr-3" />
+                      <FaGraduationCap className="text-3xl text-blue-500 mr-4" />
                       <div >
                         <h4 className="font-medium">Hukuk Fakültesi</h4>
                         <p className="text-gray-600">Kocaeli Üniversitesi</p>
                       </div>
                     </div>
                     <div className="flex items-start  transition duration-150 hover:translate-x-4 ">
-                      <FaBookOpen className="text-2xl text-blue-500 mr-3" />
+                      <FaBookOpen className="text-3xl text-blue-500 mr-4" />
                       <div>
                         <h4 className="font-medium">Avukatlık Stajı</h4>
                         <p className="text-gray-600">İstanbul Barosu</p>
                       </div>
                     </div>
                     <div className="flex items-start  transition duration-150 hover:translate-x-4">
-                      <FaIdCard className="text-2xl text-blue-500 mr-3" />
+                      <FaIdCard className="text-3xl text-blue-500 mr-4" />
                       <div>
                         <h4 className="font-medium">Baro Üyeliği</h4>
                         <p className="text-gray-600">İstanbul Barosu</p>
@@ -77,21 +77,21 @@ const About = () => {
                   <h3 className="text-2xl font-semibold mb-6">Deneyim</h3>
                   <div className="space-y-5">
                     <div className="flex items-start transition duration-150 hover:translate-x-4">
-                      <FaBalanceScale className="text-2xl text-blue-500 mr-3" />
+                      <FaBalanceScale className="text-3xl text-blue-500 mr-4" />
                       <div>
                         <h4 className="font-medium">Avukatlık</h4>
                         <p className="text-gray-600">2+ Yıllık deneyim</p>
                       </div>
                     </div>
                     <div className="flex items-start  transition duration-150 hover:translate-x-4">
-                      <FaUsers className="text-2xl text-blue-500 mr-3" />
+                      <FaUsers className="text-3xl text-blue-500 mr-4" />
                       <div>
                         <h4 className="font-medium">Hukuki Danışmanlık</h4>
                         <p className="text-gray-600">1000+ Müşteri</p>
                       </div>
                     </div>
                     <div className="flex items-start  transition duration-150 hover:translate-x-4">
-                      <FaTrophy className="text-2xl text-blue-500 mr-3" />
+                      <FaTrophy className="text-3xl text-blue-500 mr-4" />
                       <div>
                         <h4 className="font-medium">Dava Başarıları</h4>
                         <p className="text-gray-600">200+ Başarılı davalar</p>
