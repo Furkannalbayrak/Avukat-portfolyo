@@ -36,7 +36,7 @@ function Header() {
                 <div className='flex text-white xl:max-w-6xl xl:gap-4 lg:max-w-[970px]  mx-auto  '>
 
                     <div className='flex justify-center lg:justify-start w-full lg:w-auto '>
-                        <img src={logo} alt="" className='xl:w-80 lg:w-72 w-96 ml-10 lg:ml-0' />
+                        <img src={logo} alt="" className='xl:w-[350px] lg:w-80 w-[450px] ml-10 lg:ml-0' />
                     </div>
 
                     <div className='absolute right-5 top-4 lg:hidden z-30'>
@@ -63,10 +63,16 @@ function Header() {
                                 </span>
                                 <ul className='absolute hidden text-lg group-hover:block bg-black text-white mt-2 rounded shadow-lg w-60 z-10'>
                                     <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Ceza Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Aile Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>İcra Hukuku</li>
+                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Borçlar Hukuku</li>
                                     <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Ticaret Hukuku</li>
+                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>İş Hukuku</li>
+                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Vergi Hukuku</li>
+                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Anayasa Hukuku</li>
+                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Sözleşmeler Hukuku</li>
+                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Aile Hukuku</li>
+                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Miras Hukuku</li>
                                     <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Gayrimenkul Hukuku</li>
+
                                 </ul>
                             </li>
 
@@ -74,6 +80,27 @@ function Header() {
                             <li className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-2 cursor-pointer'>İletişim</li>
                         </ul>
 
+                    </div>
+                </div>
+
+                <div className='flex items-center justify-center lg:mt-12 mt-4'>
+                    <div className='text-center text-white px-4'>
+                        <div className='space-y-4'>
+                            <h1 className='text-2xl lg:text-4xl font-bold font-poppins leading-tight'>
+                                Hukuki Danışmanlık Hizmetleri
+                            </h1>
+                            <p className='text-lg lg:text-xl font-poppins opacity-90'>
+                                Profesyonel hukuki çözümler ve güvenilir danışmanlık
+                            </p>
+                            <div className='mt-8 space-x-6'>
+                                <button className='bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-40'>
+                                    İletişime Geç
+                                </button>
+                                <button className='bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-40'>
+                                    Hakkımda
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
