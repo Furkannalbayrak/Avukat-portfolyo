@@ -1,0 +1,26 @@
+.about-container{
+    display: flex;
+    text-align: start;
+    margin-top: 40px;
+    gap: 10px;
+    width: 100%;
+}
+.about-container-firstDiv{
+    flex-basis: 70%;
+}
+
+.about-container-secondDiv{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:1028px){
+    .about-container-secondDiv{
+        flex-basis: 0%;
+    }
+    .about-container-firstDiv{
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
