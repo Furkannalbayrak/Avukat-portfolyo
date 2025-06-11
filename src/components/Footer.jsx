@@ -12,17 +12,17 @@ const Footer = () => {
               <div className="flex items-start">
                 <FaMapMarkerAlt className="text-2xl text-blue-400 mr-3" />
                 <div>
-                  <p className="text-gray-400">İstanbul Barosu</p>
-                  <p className="text-gray-400">İstanbul, Türkiye</p>
+                  <p className="text-gray-400">Zuhuratbaba Mah. İncirli Cad.</p>
+                  <p className="text-gray-400">No:43/12 Bakırköy / İSTANBUL</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <FaPhone className="text-2xl text-blue-400 mr-3" />
-                <p className="text-gray-400">+90 555 123 45 67</p>
+                <p className="text-gray-400">0543 223 84 41</p>
               </div>
               <div className="flex items-start">
                 <FaEnvelope className="text-2xl text-blue-400 mr-3" />
-                <p className="text-gray-400">info@hukuk.com</p>
+                <p className="text-gray-400">avbeyzaalbayrak@gmail.com</p>
               </div>
               <div className="flex items-start">
                 <FaClock className="text-2xl text-blue-400 mr-3" />
@@ -30,15 +30,18 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
           <div>
             <h3 className="text-xl font-semibold mb-4">Hızlı Linkler</h3>
             <ul className="space-y-2">
+              <li className="text-gray-400 hover:text-white">Anasayfa</li>
               <li className="text-gray-400 hover:text-white">Hakkımda</li>
-              <li className="text-gray-400 hover:text-white">Çalışma Alanlarım</li>
+              <li className="text-gray-400 hover:text-white">Faaliyet Alanlarım</li>
               <li className="text-gray-400 hover:text-white">Makaleler</li>
               <li className="text-gray-400 hover:text-white">İletişim</li>
             </ul>
           </div>
+
           <div>
             <h3 className="text-xl font-semibold mb-4">Baro Bilgileri</h3>
             <ul className="space-y-2">
@@ -48,6 +51,7 @@ const Footer = () => {
               <li className="text-gray-400 hover:text-white">Referanslar</li>
             </ul>
           </div>
+
           <div>
             <h3 className="text-xl font-semibold mb-4">Sosyal Medya</h3>
             <div className="flex space-x-4 mt-4">
@@ -64,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 Hukuk Bürosu. Tüm hakları saklıdır.</p>
+          <p>&copy; 2025 Av. Beyza Albayrak. Tüm hakları saklıdır.</p>
         </div>
       </div>
     </footer>
