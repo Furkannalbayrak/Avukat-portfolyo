@@ -3,7 +3,7 @@ import logo from '../images/logo6.png'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'; // 🔹 Hamburger ikonları
 import { useNavigate } from 'react-router-dom';
 
-function Header() {
+function SimpleHeader() {
 
     const navigate = useNavigate();
 
@@ -11,9 +11,7 @@ function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const images = [
-        "https://www.ekinlaw.com/wp-content/uploads/2024/04/avukatlik-sozlesmesinin-unsurlari-nelerdir.jpeg",
-        "https://img.aydinlik.com.tr/rcman/Cw1280h720q95gc/storage/files/images/2023/09/21/avukatlik-asgari-ucret-tarifesi-belli-oldu-mu-yeni-avukatlik-ucretleri-ne-kadar-oldu-2023-u2qn.jpg",
-        "https://cdn.create.vista.com/api/media/medium/304130404/stock-photo-law-concept-background-gavel-judge-themis-statue-clock-scale-gray?token="
+        "https://3dduvarkagitlari.com/Content/images/2020/10/28/l/3dduvarkagitlari-bdbf727b.jpg"
     ];
 
     useEffect(() => {
@@ -34,7 +32,7 @@ function Header() {
 
     return (
         <div>
-            <nav className='h-screen bg-cover bg-center bg-no-repeat ' style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)),  url(${images[bgIndex]})` }}>
+            <nav className='h-96 bg-cover bg-center bg-no-repeat ' style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)),  url(${images[bgIndex]})` }}>
 
                 <div className='flex text-white xl:max-w-6xl xl:gap-4 lg:max-w-[970px]  mx-auto  '>
 
@@ -57,12 +55,12 @@ function Header() {
                     <div className='flex-grow '>
 
                         <ul className='hidden lg:flex lg:flex-row flex-wrap gap-3 sm:gap-2 mt-10'>
-                            <li onClick={()=> navigate("/")}
+                            <li onClick={() => navigate("/")}
                                 className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Anasayfa</li>
-                            <li onClick={()=> navigate("/about")}
+                            <li onClick={() => navigate("/about")}
                                 className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Hakkımda</li>
 
-                            <li onClick={()=> navigate("/services")}
+                            <li onClick={() => navigate("/services")}
                                 className='relative group font-poppins xl:text-xl lg:text-lg py-2 px-3'>
                                 <span className='cursor-pointer border-2 border-transparent group-hover:border-b-white pb-1 inline-block'>
                                     Faaliyet Alanlarım
@@ -82,33 +80,12 @@ function Header() {
                                 </ul>
                             </li>
 
-                            <li onClick={()=>navigate("/article")}
+                            <li onClick={() => navigate("/article")}
                                 className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Makaleler</li>
-                            <li onClick={()=> navigate("/contact")}
+                            <li onClick={() => navigate("/contact")}
                                 className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-2 cursor-pointer'>İletişim</li>
                         </ul>
 
-                    </div>
-                </div>
-
-                <div className='flex items-center justify-center lg:mt-12 mt-4'>
-                    <div className='text-center text-white px-4'>
-                        <div className='space-y-4'>
-                            <h1 className='text-2xl lg:text-4xl font-bold font-poppins leading-tight'>
-                                Hukuki Danışmanlık Hizmetleri
-                            </h1>
-                            <p className='text-lg lg:text-xl font-poppins opacity-90'>
-                                Profesyonel hukuki çözümler ve güvenilir danışmanlık
-                            </p>
-                            <div className='mt-8 space-x-6'>
-                                <button className='bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-40'>
-                                    İletişime Geç
-                                </button>
-                                <button className='bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-40'>
-                                    Hakkımda
-                                </button>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -189,4 +166,4 @@ function Header() {
 }
 
 
-export default Header
+export default SimpleHeader
