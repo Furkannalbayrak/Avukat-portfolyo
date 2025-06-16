@@ -39,7 +39,7 @@ function Header() {
                 <div className='flex text-white xl:max-w-6xl xl:gap-4 lg:max-w-[970px]  mx-auto  '>
 
                     <div className='flex justify-center lg:justify-start w-full lg:w-auto '>
-                        <img src={logo} alt="" className='xl:w-[350px] lg:w-80 w-[450px] ml-10 lg:ml-0' />
+                        <img src={logo} alt="" className='xl:w-[360px] lg:w-80 w-[450px] ml-10 lg:ml-0' />
                     </div>
 
                     <div className='absolute right-5 top-4 lg:hidden z-30'>
@@ -57,34 +57,32 @@ function Header() {
                     <div className='flex-grow '>
 
                         <ul className='hidden lg:flex lg:flex-row flex-wrap gap-3 sm:gap-2 mt-10'>
-                            <li onClick={()=> navigate("/")}
+                            <li onClick={() => navigate("/")}
                                 className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Anasayfa</li>
-                            <li onClick={()=> navigate("/about")}
+                            <li onClick={() => navigate("/about")}
                                 className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Hakkımda</li>
 
-                            <li onClick={()=> navigate("/services")}
+                            <li 
                                 className='relative group font-poppins xl:text-xl lg:text-lg py-2 px-3'>
-                                <span className='cursor-pointer border-2 border-transparent group-hover:border-b-white pb-1 inline-block'>
+                                <span onClick={()=> navigate("/services")} className='cursor-pointer border-2 border-transparent group-hover:border-b-white pb-1 inline-block'>
                                     Faaliyet Alanlarım
                                 </span>
                                 <ul className='absolute hidden text-lg group-hover:block bg-black text-white mt-2 rounded shadow-lg w-60 z-10'>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Ceza Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Borçlar Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Ticaret Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>İş Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Vergi Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Anayasa Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Sözleşmeler Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Aile Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Miras Hukuku</li>
-                                    <li className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Gayrimenkul Hukuku</li>
-
+                                    <li onClick={()=> navigate("/ceza-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Ceza Hukuku</li>
+                                    <li onClick={()=> navigate("/borclar-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Borçlar Hukuku</li>
+                                    <li onClick={()=> navigate("/is-ve-sosyal-guvenlik-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>İş ve Sosyal Güvenlik Hukuku</li>
+                                    <li onClick={()=> navigate("/idare-ve-vergi-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>İdare ve Vergi Hukuku</li>
+                                    <li onClick={()=> navigate("/aile-ve-miras-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Aile ve Miras Hukuku</li>
+                                    <li onClick={()=> navigate("/kira-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Kira Hukuku</li>
+                                    <li onClick={()=> navigate("/tazminat-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Tazminat Hukuku</li>
+                                    <li onClick={()=> navigate("/icra-ve-iflas-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>İcra ve İflas Hukuku</li>
+                                    <li onClick={()=> navigate("/yabancilar-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Yabancılar Hukuku</li>
                                 </ul>
                             </li>
 
-                            <li onClick={()=>navigate("/article")}
-                                className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Makaleler</li>
-                            <li onClick={()=> navigate("/contact")}
+                            <li onClick={() => navigate("/article")}
+                                className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Mevzuat</li>
+                            <li onClick={() => navigate("/contact")}
                                 className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-2 cursor-pointer'>İletişim</li>
                         </ul>
 
@@ -94,19 +92,20 @@ function Header() {
                 <div className='flex items-center justify-center lg:mt-12 mt-4'>
                     <div className='text-center text-white px-4'>
                         <div className='space-y-4'>
-                            <h1 className='text-2xl lg:text-4xl font-bold font-poppins leading-tight'>
+                            <h1 className='md:text-[33px] lg:text-[40px] text-[26px] font-bold font-poppins leading-tight'>
                                 Hukuki Danışmanlık Hizmetleri
                             </h1>
                             <p className='text-lg lg:text-xl font-poppins opacity-90'>
                                 Profesyonel hukuki çözümler ve güvenilir danışmanlık
                             </p>
                             <div className='mt-8 space-x-6'>
-                                <button className='bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-40'>
-                                    İletişime Geç
+                                <button className='bg-white text-black text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-44'>
+                                    Detaylı bilgi al
                                 </button>
-                                <button className='bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-40'>
-                                    Hakkımda
+                                <button className='bg-white text-black text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-44'>
+                                    İletişime Geçsin
                                 </button>
+                               
                             </div>
                         </div>
                     </div>
@@ -146,18 +145,21 @@ function Header() {
                                     Hakkımda
                                 </li>
                                 <li className='py-2 px-3 rounded hover:bg-gray-700 cursor-pointer flex flex-col'
-                                    onClick={() => {
-                                        setMenuOpen(false);
-                                        navigate("/services")
-                                    }}
+                                    onClick={()=> setMenuOpen(false)}
                                 >
-                                    <span>Faaliyet Alanlarım</span>
+                                    <span onClick={()=> navigate("/services")}
+                                    >Faaliyet Alanlarım</span>
                                     <ul className='mt-2 ml-4 border-l border-gray-600 pl-3 space-y-2 text-gray-300 text-base'>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Ceza Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Aile Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>İcra Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Ticaret Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Gayrimenkul Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/ceza-hukuku") }} >Ceza Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/aile-hukuku") }}>Borçlar Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/icra-iflas-hukuku") }}>İş ve Sosyal Güvenlik Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>İdare ve Vergi Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Aile ve Miras Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Kira Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Tazminat Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>İcra ve İflas Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Yabancılar Hukuku</li>
+
                                     </ul>
                                 </li>
                                 <li

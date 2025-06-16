@@ -4,7 +4,7 @@ import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaFacebook, FaTwitter, Fa
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white">
-      <div className="container mx-auto px-4 py-16 grid">
+      <div className="container mx-auto px-4 py-16 grid max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-3">
           <div className=' flex flex-col md:items-center items-start mb-12 md:mb-0 md:pl-12 xl:pl-0 ml-6 lg:ml-0'>
             <h3 className="text-2xl font-semibold md:mb-6 mb-4">İletişim Bilgileri</h3>
@@ -50,9 +50,6 @@ const Footer = () => {
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
                 <FaInstagram className="text-4xl" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <FaTwitter className="text-4xl" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
                 <FaLinkedin className="text-4xl" />
