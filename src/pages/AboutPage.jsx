@@ -36,17 +36,18 @@ function AboutPage() {
                   <p className="text-sm text-gray-600">Ceza davalarında savunma ve müşteki vekilligi</p>
                 </div>
                 <div className="border-l-4 border-green-500 pl-4 transition duration-150 hover:translate-x-2">
-                  <h4 className="font-semibold text-gray-700 text-lg">Ticaret Hukuku</h4>
+                  <h4 className="font-semibold text-gray-700 text-lg">İcra ve İflas Hukuku</h4>
                   <p className="text-sm text-gray-600">Şirket kuruluşu, sözleşmeler ve ticari uyuşmazlıklar</p>
                 </div>
                 <div className="border-l-4 border-purple-500 pl-4 transition duration-150 hover:translate-x-2">
-                  <h4 className="font-semibold text-gray-700 text-lg">Borçlar Hukuku</h4>
+                  <h4 className="font-semibold text-gray-700 text-lg">Borçlar ve Tazminat Hukuku</h4>
                   <p className="text-sm text-gray-600">Sözleşme hukuku ve tazminat davalarında uzmanlaşma</p>
                 </div>
                 <div className="border-l-4 border-orange-500 pl-4 transition duration-150 hover:translate-x-2">
-                  <h4 className="font-semibold text-gray-700 text-lg">Aile Hukuku</h4>
+                  <h4 className="font-semibold text-gray-700 text-lg">Aile ve Miras Hukuku</h4>
                   <p className="text-sm text-gray-600">Boşanma, velayet ve nafaka konularında danışmanlık</p>
                 </div>
+                
               </div>
             </div>
           </div>
@@ -59,7 +60,7 @@ function AboutPage() {
             <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">⚖️</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-2">500+</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-2">200+</h3>
             <p className="text-black text-lg">Başarılı Dava</p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
@@ -73,14 +74,14 @@ function AboutPage() {
             <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">🕐</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-2">15+</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-2">5+</h3>
             <p className="text-black text-lg">Yıl deneyim</p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
             <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl">🏆</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-2">%95</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-2">%93</h3>
             <p className="text-black text-lg">Başarı Oranı</p>
           </div>
         </div>
