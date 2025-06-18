@@ -96,9 +96,9 @@ const Services = () => {
             <div onClick={() => navigate("/services")}
               className="bg-white rounded-xl shadow-lg p-6 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer">
               <div className="flex flex-col items-center text-center">
-                <h3 className='text-4xl font-serif mt-10'> Tüm Faatliyet</h3>
-                <h3 className='text-4xl font-serif'> Alanlarına Göz at</h3>
-                <p><FaArrowRightLong className='text-8xl mt-5' /></p>
+                <h3 className='text-[32px] font-serif xl:mt-10 lg:mt-3 md:mt-6 mt-6'> Tüm Faatliyet</h3>
+                <h3 className='text-[32px] font-serif'> Alanlarına Göz at</h3>
+                <p><FaArrowRightLong className='text-7xl mt-5' /></p>
               </div>
             </div>
           </div>

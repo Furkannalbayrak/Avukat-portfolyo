@@ -60,9 +60,9 @@ function SimpleHeader() {
                             <li onClick={() => navigate("/about")}
                                 className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Hakkımda</li>
 
-                            <li 
+                            <li
                                 className='relative group font-poppins xl:text-xl lg:text-lg py-2 px-3'>
-                                <span onClick={()=> navigate("/services")} className='cursor-pointer border-2 border-transparent group-hover:border-b-white pb-1 inline-block'>
+                                <span onClick={() => navigate("/services")} className='cursor-pointer border-2 border-transparent group-hover:border-b-white pb-1 inline-block'>
                                     Faaliyet Alanlarım
                                 </span>
                                 <ul className='absolute hidden text-lg group-hover:block bg-black text-white mt-2 rounded shadow-lg w-60 z-10'>
@@ -78,7 +78,7 @@ function SimpleHeader() {
                                 </ul>
                             </li>
 
-                            <li onClick={() => navigate("/article")}
+                            <li onClick={() => navigate("/mevzuat")}
                                 className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Mevzuat</li>
                             <li onClick={() => navigate("/contact")}
                                 className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-2 cursor-pointer'>İletişim</li>
@@ -121,28 +121,30 @@ function SimpleHeader() {
                                     Hakkımda
                                 </li>
                                 <li className='py-2 px-3 rounded hover:bg-gray-700 cursor-pointer flex flex-col'
-                                    onClick={() => {
-                                        setMenuOpen(false);
-                                        navigate("/services")
-                                    }}
+                                    onClick={()=> setMenuOpen(false)}
                                 >
-                                    <span>Faaliyet Alanlarım</span>
+                                    <span onClick={()=> navigate("/services")}
+                                    >Faaliyet Alanlarım</span>
                                     <ul className='mt-2 ml-4 border-l border-gray-600 pl-3 space-y-2 text-gray-300 text-base'>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Ceza Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Aile Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>İcra Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Ticaret Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => setMenuOpen(false)}>Gayrimenkul Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/ceza-hukuku") }} >Ceza Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/borclar-hukuku") }}>Borçlar Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/is-ve-sosyal-guvenlik-hukuku") }}>İş ve Sosyal Güvenlik Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/idare-ve-vergi-hukuku") }}>İdare ve Vergi Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/aile-ve-miras-hukuku") }}>Aile ve Miras Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/kira-hukuku") }}>Kira Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/tazminat-hukuku") }}>Tazminat Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/icra-ve-iflas-hukuku") }}>İcra ve İflas Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/yabancilar-hukuku") }}>Yabancılar Hukuku</li>
                                     </ul>
                                 </li>
                                 <li
                                     className='py-2 px-3 rounded hover:bg-gray-700 cursor-pointer'
                                     onClick={() => {
                                         setMenuOpen(false);
-                                        navigate("/article")
+                                        navigate("/mevzuat")
                                     }}
                                 >
-                                    Makaleler
+                                    Mevzuat
                                 </li>
                                 <li
                                     className='py-2 px-3 rounded hover:bg-gray-700 cursor-pointer'

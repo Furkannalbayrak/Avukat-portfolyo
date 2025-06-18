@@ -1,7 +1,11 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaFacebook, FaTwitter, FaLinkedin, FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+
+  const navigate = useNavigate();
+
   return (
     <footer className="bg-gray-800 text-white">
       <div className="container mx-auto px-4 py-16 grid max-w-7xl">
@@ -34,11 +38,11 @@ const Footer = () => {
           <div className='text-lg flex flex-col md:items-center items-start mb-12 md:mb-0 ml-6 lg:ml-0'>
             <h3 className="text-2xl font-semibold md:mb-6 mb-4">Hızlı Linkler</h3>
             <ul className="space-y-2">
-              <li className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Anasayfa</li>
-              <li className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Hakkımda</li>
-              <li className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Faaliyet Alanlarım</li>
-              <li className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Makaleler</li>
-              <li className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">İletişim</li>
+              <li onClick={()=> navigate("/")} className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Anasayfa</li>
+              <li onClick={()=> navigate("/about")} className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Hakkımda</li>
+              <li onClick={()=> navigate("/services")} className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Faaliyet Alanlarım</li>
+              <li onClick={()=> navigate("/mevzuat")} className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Mevzuat</li>
+              <li onClick={()=> navigate("/contact")} className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">İletişim</li>
             </ul>
           </div>
 
