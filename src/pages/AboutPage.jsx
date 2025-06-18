@@ -1,6 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function AboutPage() {
+
+  const navigate = useNavigate();
+
   return (
     <section className=" bg-gray-100">
       <div className="container mx-auto w-11/12 px-4 lg:-translate-y-28 -translate-y-20">
@@ -168,7 +172,8 @@ function AboutPage() {
           <p className="text-lg mb-6 opacity-90">
             Deneyimim ve uzmanlığımla, hukuki problemlerinize en uygun çözümleri bulmanıza yardımcı olacağım.
           </p>
-          <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          <button onClick={()=> navigate("/contact")} 
+          className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
             Hemen İletişime Geçin
           </button>
         </div>

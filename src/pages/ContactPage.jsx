@@ -1,5 +1,9 @@
 import React from 'react';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaShareAlt } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { RiLinkedinBoxLine } from "react-icons/ri";
 
 const ContactPage = () => {
   const handleSubmit = (e) => {
@@ -29,22 +33,33 @@ const ContactPage = () => {
                   <FaEnvelope className="text-2xl text-blue-600" />
                   <div>
                     <p className="text-gray-700 font-medium text-lg">E-posta</p>
-                    <p className="text-gray-800 text-md">avbeyzaalbayrak@gmail.com</p>
+                    <p className="text-gray-800 text-[17px]">avbeyzaalbayrak@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 shadow-md rounded-xl  p-4  border-l-4 hover:border-green-500 transition duration-100">
                   <FaPhone className="text-2xl text-blue-600" />
                   <div>
                     <p className="text-gray-700 font-medium text-lg">Telefon</p>
-                    <p className="text-gray-800 text-md">+90 0543 223 84 41</p>
+                    <p className="text-gray-800 text-[17px]">+90 0543 223 84 41</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 shadow-md rounded-xl  p-4  border-l-4 hover:border-red-500 transition duration-100">
                   <FaMapMarkerAlt className="text-2xl text-blue-600 mt-1" />
                   <div>
                     <p className="text-gray-700 font-medium text-lg">Adres</p>
-                    <p className="text-gray-800 text-md">
-                    Zuhuratbaba Mah. İncirli Cad.<br />No:43/12 Bakırköy / İSTANBUL
+                    <p className="text-gray-800 text-[17px]">
+                      Zuhuratbaba Mah. İncirli Cad.<br />No:43/12 Bakırköy / İSTANBUL
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 shadow-md rounded-xl  p-4  border-l-4 hover:border-orange-500 transition duration-100">
+                  <FaShareAlt className="text-2xl text-blue-600 mt-1" />
+                  <div className='flex flex-col gap-4'>
+                    <p className="text-gray-700 font-medium text-lg">Sosyal Medya</p>
+                    <p className="text-gray-800 text-4xl flex gap-3">
+                      <a href=""><FaWhatsapp className='text-gray-600 '/></a>
+                      <a href=""><FaInstagram  className='text-gray-600 '/></a>
+                      <a href=""><RiLinkedinBoxLine  className='text-gray-600 '/></a>
                     </p>
                   </div>
                 </div>
