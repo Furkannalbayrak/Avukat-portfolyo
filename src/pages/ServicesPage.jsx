@@ -108,9 +108,9 @@ const ServicesPage = () => {
   return (
     <section className=" bg-gray-100 flex justify-center ">
       <div>
-        <div className="container px-4 lg:-translate-y-28 -translate-y-20 flex flex-col lg:gap-28 gap-14" >
+        <div className="max-w-screen-xl mx-auto px-4 lg:-translate-y-28 -translate-y-20 flex flex-col lg:gap-28 gap-14" >
           <div className="text-center">
-            <h2 className="text-[42px] lg:text-6xl font-poppins text-white mb-4">
+            <h2 className="text-[42px] lg:text-6xl font-poppins text-white lg:mb-0 mb-4">
               Faaliyet Alanlarım
             </h2>
           </div>
