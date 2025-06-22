@@ -3,26 +3,27 @@ import React from 'react';
 const IsveSosyalGuvenlikHukuku = () => {
   return (
     <section className="bg-gray-100 flex justify-center">
-      <div className="container px-4 lg:-translate-y-28 -translate-y-20 flex flex-col lg:gap-28 gap-14">
-        <div className="text-center">
-          <h2 className="text-[31px] xl:text-6xl lg:text-5xl md:text-4xl font-poppins text-white mb-4">
-            İş ve Sosyal Güvenlik Hukuku
+      <div className="md:w-[72%] w-[82%] lg:-translate-y-40 -translate-y-28 flex flex-col lg:gap-12">
+        <div className="text-center mb-12">
+          <h2 className="text-[40px] md:text-5xl lg:text-6xl font-poppins text-white mb-4 md:space-y-1 -space-y-3">
+              <p>İş ve Sosyal</p>
+              <p>Güvenlik Hukuku</p>
           </h2>
         </div>
 
-        <div className="xl:w-10/12 w-10/12 mx-auto">
+        <div className="w-full max-w-6xl pl-4">
           <div className="mb-8 md:mt-8 lg:mt-0">
             <div className='md:ml-10'>
-              <div className="flex md:w-10/12 justify-center md:justify-start mb-8 ">
-                <h3 className="xl:text-[40px] lg:text-4xl text-3xl font-poppins text-gray-800">İş ve Sosyal Haklar</h3>
+              <div className="flex md:w-10/12 mb-8">
+                <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İş ve Sosyal Hakları</h3>
               </div>
             </div>
-            
+
             <div className="text-gray-800 leading-relaxed">
-              <ul className="list-disc list-inside space-y-3 text-2xl font-serif">
-                <li>İş sözleşmeleri ve iş ilişkileri</li>
-                <li>İşçi hakları ve sorumluluklar</li>
-                <li>Sosyal güvenlik đóngushakları</li>
+              <ul className="list-disc list-inside space-y-3 text-xl md:text-2xl font-serif">
+                <li>İş hakları ve sorumluluklar</li>
+                <li>Sosyal güvenlik hakları</li>
+                <li>İş ve meslek hakları</li>
                 <li>İş kazası ve meslek hastalığı</li>
                 <li>İşten ayrılış ve emeklilik</li>
                 <li>İşyeri düzenlemeleri ve düzenlemeler</li>
