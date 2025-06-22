@@ -2,49 +2,40 @@ import React from 'react';
 
 const SozlesmeIhtarnameVeTaahhutnameHazirlanmasi = () => {
   return (
-    <div className="py-12">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-gray-800 mb-8 text-center">
-          Sözleşme, İhtarname ve Taahhütname Hazırlanması
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-semibold mb-4">Hizmetlerimiz</h3>
-            <ul className="space-y-3">
-              <li className="flex items-center text-gray-600">
-                <span className="text-blue-500">•</span>
-                <span className="ml-2">Sözleşme hazırlama</span>
-              </li>
-              <li className="flex items-center text-gray-600">
-                <span className="text-blue-500">•</span>
-                <span className="ml-2">İhtarname hazırlama</span>
-              </li>
-              <li className="flex items-center text-gray-600">
-                <span className="text-blue-500">•</span>
-                <span className="ml-2">Taahhütname hazırlama</span>
-              </li>
-            </ul>
-          </div>
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-semibold mb-4">Avantajlar</h3>
-            <ul className="space-y-3">
-              <li className="flex items-center text-gray-600">
-                <span className="text-blue-500">•</span>
-                <span className="ml-2">Profesyonel dokümanlar</span>
-              </li>
-              <li className="flex items-center text-gray-600">
-                <span className="text-blue-500">•</span>
-                <span className="ml-2">Yasal uyum</span>
-              </li>
-              <li className="flex items-center text-gray-600">
-                <span className="text-blue-500">•</span>
-                <span className="ml-2">Hızlı hazırlama</span>
-              </li>
-            </ul>
+    <section className="bg-gray-100 flex justify-center">
+      <div className="md:w-[72%] w-[100%] xl:-translate-y-40 lg:-translate-y-32 md:-translate-y-28 -translate-y-24 flex flex-col lg:gap-24 md:gap-10 gap-12">
+        <div className="text-center">
+          <h2 className="text-[32px] md:text-[38px] lg:text-5xl xl:text-6xl font-poppins text-white mb-4 lg:space-y-1 -space-y-3">
+            <p>Sözleşme, İhtarname ve</p>
+            <p>Taahhütname Hazırlanması</p>
+          </h2>
+        </div>
+
+        <div className="w-full max-w-6xl pl-4">
+          <div className="mb-8 md:mt-8 lg:mt-0 w-[82%] mx-auto md:w-auto md:mx-0">
+            <div className='md:ml-10'>
+              <div className="flex w-10/12 mb-8">
+                <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">Hizmetlerimiz</h3>
+              </div>
+            </div>
+
+
+            <div className="text-gray-800 leading-relaxed">
+              <ul className="list-disc list-inside space-y-3 text-xl md:text-2xl font-serif">
+                <li>Sözleşme hazırlama ve gözden geçirme hizmetleri</li>
+                <li>İhtarname hazırlama ve gönderme</li>
+                <li>Taahhutname hazırlama ve düzenleyici</li>
+                <li>İş hukuku sözleşmeleri</li>
+                <li>Ticaret hukuku sözleşmeleri</li>
+                <li>Kira ve kiralık sözleşmeleri</li>
+                <li>İş ortaklığı sözleşmeleri</li>
+                <li>Şirket kurma sözleşmeleri</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
