@@ -71,8 +71,8 @@ const ConsultancyServices = () => {
                             className="bg-white rounded-xl shadow-lg p-6 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer">
                             <div className="flex flex-col items-center text-center">
                                 <div>
-                                    <h3 className='text-[32px] font-serif xl:mt-10 lg:mt-0 md:mt-2 mt-6'> Tüm Danışmanlık</h3>
-                                    <h3 className='text-[32px] font-serif'> Hizmetlerine Göz at</h3>
+                                    <h3 className='text-[30px] font-serif xl:mt-10 lg:mt-0 md:mt-2 mt-6'> Tüm Danışmanlık</h3>
+                                    <h3 className='text-[30px] font-serif'> Hizmetlerine Göz at</h3>
                                 </div>
                                 <p><FaArrowRightLong className='text-7xl mt-5' /></p>
                             </div>

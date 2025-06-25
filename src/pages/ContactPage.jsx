@@ -72,36 +72,36 @@ const ContactPage = () => {
           </div>
 
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-12'>
-            <div className="backdrop-blur-sm bg-white/70 border border-white/30 rounded-2xl shadow-2xl p-8 transition-all duration-300 hover:scale-[1.02]">
+            <div className="backdrop-blur-sm bg-white/70 border border-white/30 rounded-2xl shadow-2xl px-4 py-8 sm:px-8 transition-all duration-300 hover:scale-[1.02]">
               <h2 className="text-3xl font-semibold text-center text-gray-800 flex items-center justify-center gap-3 mb-8">
-                <FaMapMarkerAlt className="text-blue-600" /> İletişim Bilgileri
+                İletişim Bilgileri
               </h2>
               <div className="space-y-6">
                 <div className="flex items-center gap-4 shadow-md rounded-xl p-4 border-l-4 hover:border-blue-500 transition duration-100">
-                  <FaEnvelope className="text-2xl text-blue-600" />
+                  <FaEnvelope className="text-xl sm:text-2xl text-blue-600" />
                   <div>
                     <p className="text-gray-700 font-medium text-lg">E-posta</p>
-                    <p className="text-gray-800 text-[17px]">avbeyzaalbayrak@gmail.com</p>
+                    <p className="text-gray-800 text-[15px]">avbeyzaalbayrak@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 shadow-md rounded-xl p-4 border-l-4 hover:border-green-500 transition duration-100">
-                  <FaPhone className="text-2xl text-blue-600" />
+                  <FaPhone className="text-xl sm:text-2xl text-blue-600" />
                   <div>
                     <p className="text-gray-700 font-medium text-lg">Telefon</p>
-                    <p className="text-gray-800 text-[17px]">+90 0543 223 84 41</p>
+                    <p className="text-gray-800 text-[15px]">+90 0543 223 84 41</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 shadow-md rounded-xl p-4 border-l-4 hover:border-red-500 transition duration-100">
-                  <FaMapMarkerAlt className="text-2xl text-blue-600 mt-1" />
+                  <FaMapMarkerAlt className="text-xl sm:text-2xl text-blue-600 mt-1" />
                   <div>
                     <p className="text-gray-700 font-medium text-lg">Adres</p>
-                    <p className="text-gray-800 text-[17px]">
+                    <p className="text-gray-800 text-[15px]">
                       Zuhuratbaba Mah. İncirli Cad.<br />No:43/12 Bakırköy / İSTANBUL
                     </p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 shadow-md rounded-xl p-4 border-l-4 hover:border-orange-500 transition duration-100">
-                  <FaShareAlt className="text-2xl text-blue-600 mt-1" />
+                  <FaShareAlt className="text-xl sm:text-2xl text-blue-600 mt-1" />
                   <div className='flex flex-col gap-4'>
                     <p className="text-gray-700 font-medium text-lg">Sosyal Medya</p>
                     <div className="text-4xl flex gap-3">
@@ -138,7 +138,7 @@ const ContactPage = () => {
             {/* İletişim formu */}
             <div className="backdrop-blur-sm bg-white/70 border border-white/30 rounded-2xl shadow-2xl p-8 transition-all duration-300 hover:scale-[1.02]">
               <h2 className="text-3xl font-semibold text-center text-gray-800 flex items-center justify-center gap-3 mb-8">
-                <FaEnvelope className="text-blue-600" /> Bize Ulaşın
+                Bize Ulaşın
               </h2>
 
               <form className="space-y-6" onSubmit={formik.handleSubmit}>
@@ -151,7 +151,7 @@ const ContactPage = () => {
                     value={formik.values.title}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
-                    type="tel"
+                    type="text"
                     id="title"
                     name='title'
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all"

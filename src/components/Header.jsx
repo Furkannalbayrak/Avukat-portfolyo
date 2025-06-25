@@ -100,11 +100,11 @@ function Header() {
                             </p>
                             <div className='mt-8 space-x-6'>
                                 <button onClick={()=> navigate("/consultancy-services")}
-                                className='bg-white text-black text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-44'>
+                                className='bg-white text-black text-md md:text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-36 md:w-44'>
                                     Detaylı bilgi al
                                 </button>
                                 <button onClick={()=> navigate("/contact")} 
-                                className='bg-white text-black text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-44'>
+                                className='bg-white text-black text-md md:text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-36 md:w-44 '>
                                     İletişime Geçsin
                                 </button>
 

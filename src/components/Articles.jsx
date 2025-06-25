@@ -30,7 +30,7 @@ const Articles = () => {
 
   return (
     <section className="py-20 bg-gray-50">
-      <div className='mx-10'>
+      <div className='md:mx-10 mx-6'>
         <div className="container mx-auto w-auto md:max-w-none max-w-[460px]">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">

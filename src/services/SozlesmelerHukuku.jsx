@@ -3,14 +3,14 @@ import React from 'react';
 const SozlesmelerHukuku = () => {
   return (
     <section className="bg-gray-100 flex justify-center">
-      <div className="md:w-[72%] w-[82%] lg:-translate-y-28 -translate-y-20 flex flex-col lg:gap-16 md:gap-3 gap-1">
+      <div className="md:w-[72%] w-full lg:-translate-y-28 -translate-y-20 flex flex-col lg:gap-16 md:gap-3 gap-1">
         <div className="text-center mb-12">
-          <h2 className="text-[39px] md:text-5xl lg:text-6xl font-poppins text-white mb-4">
+          <h2 className="text-[36px] md:text-5xl lg:text-6xl font-poppins text-white mb-4">
             Sözleşmeler Hukuku
           </h2>
         </div>
 
-        <div className="w-full max-w-6xl pl-4">
+        <div className="w-[90%] mx-auto max-w-6xl pl-4">
           <div className="mb-8 md:mt-8 lg:mt-0">
             <div className='md:ml-10'>
               <div className="flex md:w-10/12 mb-8">
@@ -19,7 +19,7 @@ const SozlesmelerHukuku = () => {
             </div>
 
             <div className="text-gray-800 leading-relaxed">
-              <ul className="list-disc list-inside space-y-3 text-xl md:text-2xl font-serif">
+              <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
                 <li>Sözleşme türleri</li>
                 <li>Sözleşme hakları</li>
                 <li>Sözleşme sorumlulukları</li>
