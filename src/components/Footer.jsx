@@ -49,13 +49,13 @@ const Footer = () => {
           <div className=' flex flex-col md:items-center items-start md:pr-8 xl:pr-0 ml-6 lg:ml-0'>
             <h3 className="text-2xl font-semibold md:mb-6 mb-4 ">Sosyal Medya</h3>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://wa.me/905432238441" className="text-gray-400 hover:text-white">
                 <FaWhatsapp className="text-4xl" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.instagram.com/" className="text-gray-400 hover:text-white">
                 <FaInstagram className="text-4xl" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.linkedin.com/in/beyza-albayrak-108b6421a/?originalSubdomain=tr" className="text-gray-400 hover:text-white">
                 <FaLinkedin className="text-4xl" />
               </a>
             </div>

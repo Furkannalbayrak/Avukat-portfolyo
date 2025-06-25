@@ -30,8 +30,8 @@ const Articles = () => {
 
   return (
     <section className="py-20 bg-gray-50">
-      <div>
-        <div className="container mx-auto">
+      <div className='mx-10'>
+        <div className="container mx-auto w-auto md:max-w-none max-w-[460px]">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
               Mevzuat
@@ -41,7 +41,7 @@ const Articles = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto max-w-[460px] px-4 md:max-w-none">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 max-w-screen-xl mx-auto">
             {articles.map((article, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden">
                 <div className="relative h-48">

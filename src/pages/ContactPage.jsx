@@ -11,7 +11,6 @@ import emailjs from '@emailjs/browser';
 
 const ContactPage = () => {
 
-
   const registerFormSchemas = yup.object().shape({
     nameSurname: yup.string().required("Ad Soyad alanı zorunludur"),
     email: yup.string().email("Geçerli bir e-mail adresi girin").required("E-mail adresi zorunludur"),
@@ -30,10 +29,9 @@ const ContactPage = () => {
 
     validationSchema: registerFormSchemas,
     
-    onSubmit: async (values, { setSubmitting, setStatus }) => {
+    onSubmit: async (values, { setSubmitting }) => {
       try {
         setSubmitting(true);
-        setStatus(null);
 
         const templateParams = {
           name: values.nameSurname,
@@ -49,11 +47,12 @@ const ContactPage = () => {
           'vyOPqbXOtl1DdrL1O'
         );
 
-        setStatus({ type: 'success', message: 'Mesajınız başarıyla gönderildi!' });
+        alert('Mesajınız başarıyla gönderildi!');
         formik.resetForm();
 
       } catch (error) {
-        setStatus({ type: 'error', message: 'Mesaj gönderilirken bir hata oluştu.' });
+        console.error('Hata:', error);
+        alert('Mesaj gönderilirken bir hata oluştu.');
       } finally {
         setSubmitting(false);
       }
@@ -62,8 +61,8 @@ const ContactPage = () => {
   });
 
   return (
-    <div className="min-h-screen px-5 sm:px-12 bg-gray-100">
-      <div className="max-w-screen-xl mx-auto px-4 lg:-translate-y-28 -translate-y-20">
+    <div className="min-h-screen bg-gray-100">
+      <div className="max-w-screen-xl mx-auto sm:px-12 px-9 lg:-translate-y-28 -translate-y-20">
         <div className="flex flex-col lg:gap-28 gap-14">
 
           <div className="text-center">
@@ -141,16 +140,6 @@ const ContactPage = () => {
               <h2 className="text-3xl font-semibold text-center text-gray-800 flex items-center justify-center gap-3 mb-8">
                 <FaEnvelope className="text-blue-600" /> Bize Ulaşın
               </h2>
-
-              {/* Status mesajları */}
-              {formik.status && (
-                <div className={`mb-4 p-3 rounded-lg ${formik.status.type === 'success'
-                  ? 'bg-green-100 text-green-700 border border-green-300'
-                  : 'bg-red-100 text-red-700 border border-red-300'
-                  }`}>
-                  {formik.status.message}
-                </div>
-              )}
 
               <form className="space-y-6" onSubmit={formik.handleSubmit}>
 
