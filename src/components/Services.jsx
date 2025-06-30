@@ -2,6 +2,16 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Helmet } from 'react-helmet';
+import services1 from '../images/servicess/services1.webp'
+import services2 from '../images/servicess/services2.webp'
+import services3 from '../images/servicess/services3.webp'
+import services4 from '../images/servicess/services4.webp'
+import services5 from '../images/servicess/services5.webp'
+import services6 from '../images/servicess/services6.webp'
+import services7 from '../images/servicess/services7.webp'
+import services8 from '../images/servicess/services8.webp'
+import services9 from '../images/servicess/services9.webp'
+
 
 const Services = () => {
 
@@ -11,47 +21,47 @@ const Services = () => {
     {
       title: "Ceza Hukuku",
       slug: "ceza-hukuku",
-      image: "https://www.olcuhukuk.com.tr/yuklemeler/hizmet-gorselleri/29.jpg"
+      image: services1,
     },
     {
       title: "Borçlar Hukuku",
       slug: "borclar-hukuku",
-      image: "https://www.bitmezhukuk.com/wp-content/uploads/2022/01/icra-iflas-hukuku.jpg"
+      image: services2,
     },
     {
       title: "İş ve Sosyal Güvenlik Hukuku",
       slug: "is-ve-sosyal-guvenlik-hukuku",
-      image: "https://pareshukuk.com/wp-content/uploads/2023/05/Labor-and-Social-Security-Law.jpg"
+      image: services3,
     },
     {
       title: "İdare ve Vergi Hukuku",
       slug: "idare-ve-vergi-hukuku",
-      image: "https://avukaterin.com/wp-content/uploads/2024/04/Tax-Law.jpg"
+      image: services4,
     },
     {
       title: "Aile ve Miras Hukuku",
       slug: "aile-ve-miras-hukuku",
-      image: "https://enesayyildiz.av.tr/wp-content/uploads/2022/04/MS-HUKUK-MS-HUKUK-17.jpg"
+      image: services5,
     },
     {
       title: "Kira Hukuku",
       slug: "kira-hukuku",
-      image: "https://www.sabuncubchukuk.com/uploads/2ba6e81b43aaaab0ed6011a6f13d5426.png"
+      image: services6,
     },
     {
       title: "Tazminat Hukuku",
       slug: "tazminat-hukuku",
-      image: "https://www.ozdengozen.av.tr/wp-content/uploads/2024/06/Sigorta-ve-Tazminat-Hukuku.jpg"
+      image: services7,
     },
     {
       title: "İcra ve İflas Hukuku",
       slug: "icra-ve-iflas-hukuku",
-      image: "https://halilkaanemektar.av.tr/wp-content/uploads/2021/10/icra-hukuku-1170x710.jpeg"
+      image: services8,
     },
     {
       title: "Yabancılar Hukuku",
       slug: "yabancilar-hukuku",
-      image: "https://www.ekinhukuk.com.tr/wp-content/uploads/2022/10/yabancilar-hukuku.jpg"
+      image: services9,
     },
   ];
 
@@ -119,7 +129,7 @@ const Services = () => {
                     </div>
 
                     <div>
-                      <button className='absolute bottom-1 left-1/2 -translate-x-1/2 bg-transparent md:min-w-[140px] min-w-[160px] pt-3 pb-3 pr-6 pl-6 mb-2 rounded-2xl transition duration-150 border-2 border-white text-white hover:bg-[rgba(255,255,255,0.4)]'>
+                      <button className='absolute bottom-1 left-1/2 -translate-x-1/2 bg-transparent md:min-w-[150px] min-w-[160px] pt-3 pb-3 pr-6 pl-6 mb-2 rounded-2xl transition duration-150 border-2 border-white text-white hover:bg-[rgba(255,255,255,0.4)]'>
                         Detaylı Bilgi
                       </button>
                     </div>

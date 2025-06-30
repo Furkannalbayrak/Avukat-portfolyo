@@ -1,6 +1,7 @@
 import React from 'react';
 import "../css/about.css"
 import { Helmet } from 'react-helmet';
+import themis from '../images/about/themis.webp'
 
 const About = () => {
   return (
@@ -60,7 +61,7 @@ const About = () => {
 
                 <div className="about-container-secondDiv">
                   <img
-                    src="https://www.pngkey.com/png/full/560-5602499_clip-art-themis-figurine-greek-mythology-themis.png"
+                    src={themis}
                     alt="Avukat Beyza Albayrak"
                     className='hidden lg:block h-[400px] w-8/12'
                   />

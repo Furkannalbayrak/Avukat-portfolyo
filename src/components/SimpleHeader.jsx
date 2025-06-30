@@ -3,6 +3,7 @@ import logo from '../images/logo6.webp'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'; // 🔹 Hamburger ikonları
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import simpleHeaderImage from '../images/simpleHeader/simpleHeaderr.webp'
 
 function SimpleHeader() {
 
@@ -12,7 +13,7 @@ function SimpleHeader() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const images = [
-        "https://3dduvarkagitlari.com/Content/images/2020/10/28/l/3dduvarkagitlari-bdbf727b.jpg"
+        simpleHeaderImage,
     ];
 
     useEffect(() => {

@@ -5,6 +5,9 @@ import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import "../css/header.css"
+import header1 from '../images/header/header1.webp'
+import header2 from '../images/header/header2.webp'
+import header3 from '../images/header/header3.webp'
 
 
 function Header() {
@@ -17,9 +20,9 @@ function Header() {
     const [showArrow, setShowArrow] = useState(true);
 
     const images = [
-        "https://www.ekinlaw.com/wp-content/uploads/2024/04/avukatlik-sozlesmesinin-unsurlari-nelerdir.jpeg",
-        "https://img.aydinlik.com.tr/rcman/Cw1280h720q95gc/storage/files/images/2023/09/21/avukatlik-asgari-ucret-tarifesi-belli-oldu-mu-yeni-avukatlik-ucretleri-ne-kadar-oldu-2023-u2qn.jpg",
-        "https://cdn.create.vista.com/api/media/medium/304130404/stock-photo-law-concept-background-gavel-judge-themis-statue-clock-scale-gray?token="
+        header1,
+        header2,
+        header3,
     ];
 
     useEffect(() => {

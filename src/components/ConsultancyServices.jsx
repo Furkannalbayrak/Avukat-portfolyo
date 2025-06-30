@@ -2,6 +2,11 @@ import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Helmet } from "react-helmet";
+import consultancyServices1 from '../images/consultancyServices/consultancyServices1.webp'
+import consultancyServices2 from '../images/consultancyServices/consultancyServices2.webp'
+import consultancyServices3 from '../images/consultancyServices/consultancyServices3.webp'
+import consultancyServices4 from '../images/consultancyServices/consultancyServices4.webp'
+import consultancyServices5 from '../images/consultancyServices/consultancyServices5.webp'
 
 
 const ConsultancyServices = () => {
@@ -11,27 +16,27 @@ const ConsultancyServices = () => {
         {
             title: "Şirkete Yönelik Hukuki Danışmanlık",
             slug: "sirketlere-yonelik-hukuki-danismanlik",
-            image: "https://serkahukuk.com/wp-content/uploads/2023/10/Business-Law-and-Lawyer-in-Turkey.jpg"
+            image: consultancyServices1,
         },
         {
             title: "Kurumsal Danışmanlık",
             slug: "kurumsal-danismanlik",
-            image: "https://www.sinerjimpsikoloji.com.tr/upload/faaliyetler/corporate-consulting.jpg"
+            image: consultancyServices2,
         },
         {
             title: "Sözleşme ve Hukuki Belgelerin Analizi",
             slug: "sozlesme-ve-hukuki-belgelerin-analizi",
-            image: "https://www.phdhukuk.com/wp-content/uploads/2023/01/consultation-businessman-male-lawyer-judge-consult-having-team-meeting-1024x683.jpg"
+            image: consultancyServices3,
         },
         {
             title: "Önleyici ve Koruyucu Hukuki Danışmanlık",
             slug: "onleyici-ve-koruyucu-hukuki-danismanlik",
-            image: "https://hankahukuk.com/wp-content/uploads/2023/06/konya-onleyici-ve-koruyucu-danismanlik-1024x538.jpeg"
+            image: consultancyServices4,
         },
         {
             title: "Sözleşme, İhtarname ve Taahhütname Hazırlanması",
             slug: "sozlesme-ihtarname-ve-taahhutname-hazirlanmasi",
-            image: "https://mehmetserhattercan.com/media/gallery/protokol-ve-sozlesme-hazirlanmasi-1793.jpg"
+            image: consultancyServices5,
         },
     ];
 
@@ -78,10 +83,10 @@ const ConsultancyServices = () => {
                                     <div className='absolute inset-0 bg-black bg-opacity-50 z-0 rounded-xl'></div>
                                     <div className="relative flex flex-col items-center text-center z-10 gap-5 h-full">
                                         <div className='h-[60%] flex items-center'>
-                                            <h3 className="text-3xl sm:text-4xl font-serif text-white ">{service.title}</h3>
+                                            <h3 className="text-3xl sm:text-4xl xl:text-4xl md:text-[32px] font-serif text-white">{service.title}</h3>
                                         </div>
                                         <div>
-                                            <button className='absolute bottom-1 left-1/2 -translate-x-1/2 bg-transparent md:min-w-[140px] min-w-[160px] pt-3 pb-3 pr-6 pl-6 mb-2 rounded-2xl transition duration-150 border-2 border-white text-white hover:bg-[rgba(255,255,255,0.4)]'>
+                                            <button className='absolute bottom-1 left-1/2 -translate-x-1/2 bg-transparent md:min-w-[150px] min-w-[160px] pt-3 pb-3 pr-6 pl-6 mb-2 rounded-2xl transition duration-150 border-2 border-white text-white hover:bg-[rgba(255,255,255,0.4)]'>
                                                 Detaylı Bilgi
                                             </button>
                                         </div>
