@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import logo from '../images/logo6.png'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'; // 🔹 Hamburger ikonları
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function SimpleHeader() {
 
@@ -31,13 +32,46 @@ function SimpleHeader() {
     }, [menuOpen]);
 
     return (
-        <div>
+        <>
+            <Helmet>
+                <title>Avukat Beyza Albayrak | İstanbul</title>
+                <meta name="description" content="Av. Beyza Albayrak - İstanbul merkezli, uzman hukuk hizmetleri sunar. Ceza, borçlar, aile, icra hukuku ve daha fazlası." />
+                <meta name="keywords" content="avukat, İstanbul avukat, ceza hukuku, aile hukuku, icra iflas hukuku, beyza albayrak" />
+                <meta name="author" content="Av. Beyza Albayrak" />
+
+                {/* Open Graph */}
+                <meta property="og:title" content="Avukat Beyza Albayrak | İstanbul Hukuk Bürosu" />
+                <meta property="og:description" content="Uzmanlık alanlarımızda güçlü çözümler sunuyoruz. Faaliyet alanlarımızı keşfedin." />
+                <meta property="og:image" content={images[bgIndex]} />
+                <meta property="og:url" content="https://yourwebsite.com/" />
+                <meta property="og:type" content="website" />
+
+                {/* JSON-LD: WebSite yapısı */}
+                <script type="application/ld+json">
+                    {JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "WebSite",
+                        "name": "Avukat Beyza Albayrak",
+                        "url": "https://yourwebsite.com",
+                        "publisher": {
+                            "@type": "Organization",
+                            "name": "Av. Beyza Albayrak",
+                            "logo": {
+                                "@type": "ImageObject",
+                                "url": "https://yourwebsite.com/logo.png"
+                            }
+                        }
+                    })}
+                </script>
+            </Helmet>
+
+
             <nav className='h-96 bg-cover bg-center bg-no-repeat ' style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)),  url(${images[bgIndex]})` }}>
 
                 <div className='flex text-white xl:max-w-6xl xl:gap-4 lg:max-w-[970px]  mx-auto  '>
 
                     <div className='flex justify-center lg:justify-start w-full lg:w-auto '>
-                        <img src={logo} alt="" className='xl:w-[360px] lg:w-80 w-[450px] ml-10 lg:ml-0' />
+                        <img src={logo} alt="" className='xl:w-[360px] lg:w-80 w-[450px] ml-5 lg:ml-0' />
                     </div>
 
                     <div className='absolute right-5 top-4 lg:hidden z-30'>
@@ -121,9 +155,9 @@ function SimpleHeader() {
                                     Hakkımda
                                 </li>
                                 <li className='py-2 px-3 rounded hover:bg-gray-700 cursor-pointer flex flex-col'
-                                    onClick={()=> setMenuOpen(false)}
+                                    onClick={() => setMenuOpen(false)}
                                 >
-                                    <span onClick={()=> navigate("/services")}
+                                    <span onClick={() => navigate("/services")}
                                     >Faaliyet Alanlarım</span>
                                     <ul className='mt-2 ml-4 border-l border-gray-600 pl-3 space-y-2 text-gray-300 text-base'>
                                         <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/ceza-hukuku") }} >Ceza Hukuku</li>
@@ -161,7 +195,7 @@ function SimpleHeader() {
                 )}
 
             </nav>
-        </div>
+        </>
     )
 }
 

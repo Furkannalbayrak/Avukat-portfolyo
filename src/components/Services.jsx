@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Helmet } from 'react-helmet';
 
 const Services = () => {
 
@@ -55,56 +56,91 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-200 flex justify-center">
-      <div className='max-w-[1200px]'>
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-poppins mb-6">
-              Faaliyet Alanlarım
-            </h2>
-          </div>
+    <>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto">
-            {services.map((service, index) => (
-              <div onClick={() => navigate(`/${service.slug}`)}
-                key={index}
-                className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer "
-                style={{
-                  backgroundImage: `url(${service.image})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              >
+      <Helmet>
+        <title>Hukuki Hizmetler | Av. Beyza Albayrak</title>
+        <meta
+          name="description"
+          content="Ceza Hukuku, Borçlar Hukuku, İş Hukuku, Aile Hukuku gibi birçok alanda profesyonel hukuki danışmanlık hizmeti sunuyorum. Tüm faaliyet alanları için detaylara göz atın."
+        />
+        <meta name="keywords" content="ceza hukuku, borçlar hukuku, aile hukuku, tazminat, avukatlık hizmetleri, beyzalbayrak" />
+        <meta property="og:title" content="Hukuki Hizmetler | Av. Beyza Albayrak" />
+        <meta property="og:description" content="Tüm hukuki faaliyet alanlarımızı inceleyin: Ceza, Borçlar, İş, Aile, Vergi Hukuku ve daha fazlası." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourwebsite.com/services" />
+        <meta property="og:image" content="https://yourwebsite.com/preview.jpg" />
 
-                <div className='absolute inset-0 bg-black bg-opacity-40 z-0 rounded-xl'></div>
+        {/* JSON-LD yapısı: Service Listesi */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Hukuki Hizmetler",
+            "itemListElement": services.map((service, index) => ({
+              "@type": "ListItem",
+              "position": index + 1,
+              "url": `https://yourwebsite.com/${service.slug}`,
+              "name": service.title,
+              "image": service.image
+            }))
+          })}
+        </script>
+      </Helmet>
 
-                <div className="relative flex flex-col items-center text-center z-10 gap-5 h-full">
 
-                  <div className=' h-[60%] flex items-center'>
-                    <h3 className="text-4xl font-serif text-white ">{service.title}</h3>
+      <section className="py-20 bg-gray-200 flex justify-center">
+        <div className='max-w-[1200px]'>
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-poppins mb-6">
+                Faaliyet Alanlarım
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto">
+              {services.map((service, index) => (
+                <div onClick={() => navigate(`/${service.slug}`)}
+                  key={index}
+                  className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer "
+                  style={{
+                    backgroundImage: `url(${service.image})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                >
+
+                  <div className='absolute inset-0 bg-black bg-opacity-40 z-0 rounded-xl'></div>
+
+                  <div className="relative flex flex-col items-center text-center z-10 gap-5 h-full">
+
+                    <div className=' h-[60%] flex items-center leading-10'>
+                      <h3 className="text-[35px] sm:text-4xl font-serif text-white ">{service.title}</h3>
+                    </div>
+
+                    <div>
+                      <button className='absolute bottom-1 left-1/2 -translate-x-1/2 bg-transparent md:min-w-[140px] min-w-[160px] pt-3 pb-3 pr-6 pl-6 mb-2 rounded-2xl transition duration-150 border-2 border-white text-white hover:bg-[rgba(255,255,255,0.4)]'>
+                        Detaylı Bilgi
+                      </button>
+                    </div>
+
                   </div>
-
-                  <div>
-                    <button className='absolute bottom-1 left-1/2 -translate-x-1/2 bg-transparent md:min-w-[140px] min-w-[160px] pt-3 pb-3 pr-6 pl-6 mb-2 rounded-2xl transition duration-150 border-2 border-white text-white hover:bg-[rgba(255,255,255,0.4)]'>
-                      Detaylı Bilgi
-                    </button>
-                  </div>
-
                 </div>
-              </div>
-            ))}
-            <div onClick={() => navigate("/services")}
-              className="bg-white rounded-xl shadow-lg p-6 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer">
-              <div className="flex flex-col items-center text-center">
-                <h3 className='text-[32px] font-serif xl:mt-10 lg:mt-3 md:mt-6 mt-6'> Tüm Faatliyet</h3>
-                <h3 className='text-[32px] font-serif'> Alanlarına Göz at</h3>
-                <p><FaArrowRightLong className='text-7xl mt-5' /></p>
+              ))}
+              <div onClick={() => navigate("/services")}
+                className="bg-white rounded-xl shadow-lg p-6 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer">
+                <div className="flex flex-col items-center text-center">
+                  <h3 className='text-[32px] font-serif xl:mt-10 lg:mt-3 md:mt-6 mt-6'> Tüm Faatliyet</h3>
+                  <h3 className='text-[32px] font-serif'> Alanlarına Göz at</h3>
+                  <p><FaArrowRightLong className='text-7xl mt-5' /></p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
+
   );
 };
 

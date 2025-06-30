@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const ServicesPage = () => {
 
@@ -91,13 +92,13 @@ const ServicesPage = () => {
       slug: "sigorta-hukuku",
       image: "https://www.proaktifhukuk.com/content/images/thumbs/0000798_sgorta-hukuku-sgorta-hukukunda-avukatlarin-rolu-ve-sgorta-hukuku-davalari_550.jpeg"
     },
-    
+
     {
       title: "İnsan Hakları Hukuku",
       slug: "insan-haklari-hukuku",
       image: "https://akuakademi.com/upload/insan-haklari-hukuku-egitimi-sertifika-programi.jpg"
     },
-    
+
     {
       title: "İdari Ceza Hukuku",
       slug: "idari-ceza-hukuku",
@@ -106,48 +107,70 @@ const ServicesPage = () => {
   ];
 
   return (
-    <section className=" bg-gray-100 flex justify-center ">
-      <div>
-        <div className="max-w-screen-xl mx-auto lg:-translate-y-28 -translate-y-20 flex flex-col lg:gap-28 gap-14" >
-          <div className="text-center">
-            <h2 className="text-[40px] lg:text-6xl font-poppins text-white lg:mb-0 mb-4">
-              Faaliyet Alanlarım
-            </h2>
-          </div>
+    <>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto px-4">
-            {services.map((service, index) => (
-              <div onClick={()=> navigate(`/${service.slug}`)}
-                key={index}
-                className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
-                style={{
-                  backgroundImage: `url(${service.image})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              >
+      <Helmet>
+        <title>Faaliyet Alanlarım - Av. Beyza Albayrak</title>
+        <meta
+          name="description"
+          content="Avukat Beyza Albayrak'ın uzmanlık alanları. Ceza Hukuku, Borçlar Hukuku, Aile Hukuku ve diğer hukuk dallarında profesyonel danışmanlık."
+        />
+        <meta
+          name="keywords"
+          content="Ceza Hukuku, Borçlar Hukuku, İş Hukuku, Aile Hukuku, Ticaret Hukuku, Hukuki Danışmanlık, Avukat Beyza Albayrak"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Faaliyet Alanlarım - Av. Beyza Albayrak" />
+        <meta
+          property="og:description"
+          content="Avukat Beyza Albayrak'ın uzmanlık alanları ve hukuki danışmanlık hizmetleri hakkında detaylı bilgi alın."
+        />
+      </Helmet>
 
-                <div className='absolute inset-0 bg-black bg-opacity-40 z-0 rounded-xl'></div>
 
-                <div className="relative flex flex-col items-center text-center z-10 gap-5 h-full">
+      <section className=" bg-gray-100 flex justify-center ">
+        <div>
+          <div className="max-w-screen-xl mx-auto lg:-translate-y-28 -translate-y-20 flex flex-col lg:gap-28 gap-14" >
+            <div className="text-center">
+              <h2 className="text-[36px] lg:text-6xl font-poppins text-white lg:mb-0 mb-4">
+                Faaliyet Alanlarım
+              </h2>
+            </div>
 
-                  <div className=' h-[60%] flex items-center'>
-                    <h3 className="text-4xl font-serif text-white ">{service.title}</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto px-4">
+              {services.map((service, index) => (
+                <div onClick={() => navigate(`/${service.slug}`)}
+                  key={index}
+                  className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+                  style={{
+                    backgroundImage: `url(${service.image})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                >
+
+                  <div className='absolute inset-0 bg-black bg-opacity-40 z-0 rounded-xl'></div>
+
+                  <div className="relative flex flex-col items-center text-center z-10 gap-5 h-full">
+
+                    <div className=' h-[60%] flex items-center leading-10'>
+                      <h3 className="text-[35px] sm:text-4xl font-serif text-white ">{service.title}</h3>
+                    </div>
+
+                    <div>
+                      <button className='absolute bottom-0 left-1/2 -translate-x-1/2 bg-transparent md:min-w-[140px] min-w-[160px] pt-3 pb-3 pr-6 pl-6 mb-3 rounded-2xl transition duration-150 border-2 border-white text-white hover:bg-[rgba(255,255,255,0.4)]'>
+                        Detaylı Bilgi
+                      </button>
+                    </div>
+
                   </div>
-
-                  <div>
-                    <button className='absolute bottom-0 left-1/2 -translate-x-1/2 bg-transparent md:min-w-[140px] min-w-[160px] pt-3 pb-3 pr-6 pl-6 mb-3 rounded-2xl transition duration-150 border-2 border-white text-white hover:bg-[rgba(255,255,255,0.4)]'>
-                      Detaylı Bilgi
-                    </button>
-                  </div>
-
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

@@ -1,0 +1,22 @@
+{
+    "name": "Avukat Beyza Albayrak",
+    "short_name": "Beyza Albayrak",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "description": "İstanbul'da Ceza, Aile, Borçlar ve İş Hukuku alanlarında uzman avukat Beyza Albayrak'ın resmi web sitesi.",
+    "icons": [
+      {
+        "src": "/logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  

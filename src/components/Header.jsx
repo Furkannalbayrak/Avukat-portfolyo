@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import logo from '../images/logo6.png'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'; // 🔹 Hamburger ikonları
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function Header() {
 
@@ -33,13 +34,34 @@ function Header() {
     }, [menuOpen]);
 
     return (
-        <div>
+        <>
+
+            <Helmet>
+                <title>Av. Beyza Albayrak | Profesyonel Hukuki Danışmanlık Hizmetleri</title>
+                <meta
+                    name="description"
+                    content="Av. Beyza Albayrak ile profesyonel hukuki danışmanlık hizmetleri. Ceza hukuku, borçlar hukuku, iş hukuku ve daha fazlası hakkında güvenilir çözümler."
+                />
+                {/* Open Graph Tags */}
+                <meta property="og:title" content="Av. Beyza Albayrak | Profesyonel Hukuki Danışmanlık Hizmetleri" />
+                <meta property="og:description" content="Av. Beyza Albayrak ile profesyonel hukuki danışmanlık hizmetleri. Ceza hukuku, borçlar hukuku, iş hukuku ve daha fazlası hakkında güvenilir çözümler." />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={window.location.href} />
+                <meta property="og:image" content={images[bgIndex]} />
+                {/* Twitter Card */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Av. Beyza Albayrak | Profesyonel Hukuki Danışmanlık Hizmetleri" />
+                <meta name="twitter:description" content="Av. Beyza Albayrak ile profesyonel hukuki danışmanlık hizmetleri. Ceza hukuku, borçlar hukuku, iş hukuku ve daha fazlası hakkında güvenilir çözümler." />
+                <meta name="twitter:image" content={images[bgIndex]} />
+            </Helmet>
+
+
             <nav className='h-screen bg-cover bg-center bg-no-repeat ' style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)),  url(${images[bgIndex]})` }}>
 
                 <div className='flex text-white xl:max-w-6xl xl:gap-4 lg:max-w-[970px]  mx-auto  '>
 
                     <div className='flex justify-center lg:justify-start w-full lg:w-auto '>
-                        <img src={logo} alt="" className='xl:w-[360px] lg:w-80 w-[450px] ml-10 lg:ml-0' />
+                        <img src={logo} alt="" className='xl:w-[360px] lg:w-80 w-[450px] ml-5 lg:ml-0' />
                     </div>
 
                     <div className='absolute right-5 top-4 lg:hidden z-30'>
@@ -99,12 +121,12 @@ function Header() {
                                 Profesyonel hukuki çözümler ve güvenilir danışmanlık
                             </p>
                             <div className='mt-8 space-x-6'>
-                                <button onClick={()=> navigate("/consultancy-services")}
-                                className='bg-white text-black text-md md:text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-36 md:w-44'>
+                                <button onClick={() => navigate("/consultancy-services")}
+                                    className='bg-white text-black text-md md:text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-36 md:w-44'>
                                     Detaylı bilgi al
                                 </button>
-                                <button onClick={()=> navigate("/contact")} 
-                                className='bg-white text-black text-md md:text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-36 md:w-44 '>
+                                <button onClick={() => navigate("/contact")}
+                                    className='bg-white text-black text-md md:text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-36 md:w-44 '>
                                     İletişime Geçsin
                                 </button>
 
@@ -187,7 +209,7 @@ function Header() {
                 )}
 
             </nav>
-        </div>
+        </>
     )
 }
 
