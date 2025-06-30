@@ -3,6 +3,9 @@ import logo from '../images/logo6.png'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'; // 🔹 Hamburger ikonları
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+import "../css/header.css"
+
 
 function Header() {
 
@@ -10,6 +13,8 @@ function Header() {
 
     const [bgIndex, setBgIndex] = useState(0);
     const [menuOpen, setMenuOpen] = useState(false);
+
+    const [showArrow, setShowArrow] = useState(true);
 
     const images = [
         "https://www.ekinlaw.com/wp-content/uploads/2024/04/avukatlik-sozlesmesinin-unsurlari-nelerdir.jpeg",
@@ -32,6 +37,20 @@ function Header() {
             document.body.style.overflow = '';
         }
     }, [menuOpen]);
+
+
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 500) {
+                setShowArrow(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     return (
         <>
@@ -134,6 +153,20 @@ function Header() {
                         </div>
                     </div>
                 </div>
+
+
+                {showArrow && (
+                    <div className="fixed bottom-9 left-1/2 transform -translate-x-1/2 lg:hidden text-gray-500 text-[42px]">
+                        <div
+                            className="rounded-full border-2 border-gray-400 bg-white/90"
+                            style={{ animation: "bounceFloor 4s ease-in-out infinite" }}
+                        >
+                            <MdKeyboardDoubleArrowDown />
+                        </div>
+                    </div>
+                )}
+
+
 
                 {menuOpen && (
                     <>

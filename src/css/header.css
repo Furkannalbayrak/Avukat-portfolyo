@@ -1,0 +1,21 @@
+@keyframes bounceFloor {
+    0% {
+        transform: translateY(0);
+    }
+
+    10% {
+        transform: translateY(15px);
+    }
+
+    20% {
+        transform: translateY(5px);
+    }
+
+    30% {
+        transform: translateY(15px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+ 
+}
