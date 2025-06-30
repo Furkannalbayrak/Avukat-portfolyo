@@ -153,14 +153,16 @@ const ServicesPage = () => {
                 <div onClick={() => navigate(`/${service.slug}`)}
                   key={index}
                   className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
-                  style={{
-                    backgroundImage: `url(${service.image})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
                 >
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="absolute inset-0 w-full h-full object-cover rounded-xl z-0"
+                    loading="lazy"
+                    decoding="async"
+                  />
 
-                  <div className='absolute inset-0 bg-black bg-opacity-40 z-0 rounded-xl'></div>
+                  <div className='absolute inset-0 bg-black bg-opacity-50 z-10 rounded-xl'></div>
 
                   <div className="relative flex flex-col items-center text-center z-10 gap-5 h-full">
 
