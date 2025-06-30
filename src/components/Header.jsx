@@ -83,7 +83,7 @@ function Header() {
                 <div className='flex text-white xl:max-w-6xl xl:gap-4 lg:max-w-[970px]  mx-auto  '>
 
                     <div className='flex justify-center lg:justify-start w-full lg:w-auto '>
-                        <img src={logo} alt="" className='xl:w-[360px] lg:w-80 w-[450px] ml-5 lg:ml-0 loading="lazy" ' />
+                        <img src={logo} alt="" className='xl:w-[350px] lg:w-80 w-[430px] ml-5 lg:ml-0 loading="lazy" ' />
                     </div>
 
                     <div className='absolute right-5 top-4 lg:hidden z-30'>

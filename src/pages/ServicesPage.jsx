@@ -143,7 +143,7 @@ const ServicesPage = () => {
         <div>
           <div className="max-w-screen-xl mx-auto lg:-translate-y-28 -translate-y-20 flex flex-col lg:gap-28 gap-14" >
             <div className="text-center">
-              <h2 className="text-[36px] lg:text-6xl font-poppins text-white lg:mb-0 mb-4">
+              <h2 className="text-[36px] lg:text-6xl font-poppins text-white mb-4">
                 Faaliyet Alanlarım
               </h2>
             </div>
