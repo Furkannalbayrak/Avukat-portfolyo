@@ -1,0 +1,1 @@
+const s="/Avukat-portfolyo/assets/consultancyServices1-CLEQKrwK.webp",c="/Avukat-portfolyo/assets/consultancyServices2-CXGTs_ST.webp",e="/Avukat-portfolyo/assets/consultancyServices3-CeK781zg.webp",o="/Avukat-portfolyo/assets/consultancyServices4-DoSC8P86.webp",t="/Avukat-portfolyo/assets/services9-D6cgcqwK.webp";export{c as a,e as b,s as c,o as d,t as e};
