@@ -91,21 +91,21 @@ const ContactPage = () => {
                 </h2>
                 <div className="space-y-6">
                   <div className="flex items-center gap-4 shadow-md rounded-xl p-4 border-l-4 hover:border-blue-500 transition duration-100">
-                    <FaEnvelope className="text-xl sm:text-2xl text-blue-600" />
+                    <FaEnvelope className="text-xl sm:text-2xl text-blue-600 hidden sm:block" />
                     <div>
                       <p className="text-gray-700 font-medium text-lg">E-posta</p>
                       <p className="text-gray-800 text-[15px]">avbeyzaalbayrak@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 shadow-md rounded-xl p-4 border-l-4 hover:border-green-500 transition duration-100">
-                    <FaPhone className="text-xl sm:text-2xl text-blue-600" />
+                    <FaPhone className="text-xl sm:text-2xl text-blue-600 hidden sm:block" />
                     <div>
                       <p className="text-gray-700 font-medium text-lg">Telefon</p>
                       <p className="text-gray-800 text-[15px]">+90 0543 223 84 41</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 shadow-md rounded-xl p-4 border-l-4 hover:border-red-500 transition duration-100">
-                    <FaMapMarkerAlt className="text-xl sm:text-2xl text-blue-600 mt-1" />
+                    <FaMapMarkerAlt className="text-xl sm:text-2xl text-blue-600 mt-1 hidden sm:block" />
                     <div>
                       <p className="text-gray-700 font-medium text-lg">Adres</p>
                       <p className="text-gray-800 text-[15px]">
@@ -114,7 +114,7 @@ const ContactPage = () => {
                     </div>
                   </div>
                   <div className="flex items-center gap-4 shadow-md rounded-xl p-4 border-l-4 hover:border-orange-500 transition duration-100">
-                    <FaShareAlt className="text-xl sm:text-2xl text-blue-600 mt-1" />
+                    <FaShareAlt className="text-xl sm:text-2xl text-blue-600 mt-1 hidden sm:block" />
                     <div className='flex flex-col gap-4'>
                       <p className="text-gray-700 font-medium text-lg">Sosyal Medya</p>
                       <div className="text-4xl flex gap-3">
