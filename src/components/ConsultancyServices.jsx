@@ -44,10 +44,10 @@ const ConsultancyServices = () => {
 
         <>
             <Helmet>
-                <title>Hukuki Danışmanlık Hizmetleri | Serkan Hukuk</title>
+                <title>Hukuki Danışmanlık Hizmetleri | Albayrak Hukuk</title>
                 <meta name="description" content="Profesyonel hukuki danışmanlık hizmetleri ile iş ve şirketlerinizi koruyun. Sözleşme, analiz, önleyici ve kurumsal danışmanlık alanlarında destek." />
                 {/* Open Graph tags */}
-                <meta property="og:title" content="Hukuki Danışmanlık Hizmetleri | Serkan Hukuk" />
+                <meta property="og:title" content="Hukuki Danışmanlık Hizmetleri | Albayrak Hukuk" />
                 <meta property="og:description" content="Profesyonel hukuki danışmanlık hizmetleri ile iş ve şirketlerinizi koruyun." />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={window.location.href} />
@@ -60,7 +60,7 @@ const ConsultancyServices = () => {
             </Helmet>
 
 
-            <section className="py-20 bg-gray-100 flex justify-center">
+            <section className="sm:py-20 py-14 bg-gray-100 flex justify-center">
                 <div className='max-w-[1200px]'>
                     <div className="container mx-auto px-4">
                         <div className="text-center mb-16">

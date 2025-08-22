@@ -35,7 +35,7 @@ const About = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16 px-4 md:px-20">
+            <div className="text-center sm:mb-8 mb-0 px-4 md:px-20">
 
               <h2 className="text-4xl md:text-5xl font-poppins mb-6 tracking-wide border-b-2 border-gray-300 pb-4">
                 Hakkımda
@@ -46,7 +46,7 @@ const About = () => {
                 <div className="about-container-firstDiv md:w-1/2 w-full text-lg">
 
                   <p className="mb-4">
-                    Av. Beyza ALBAYRAK İstanbul merkezli ofisiyle, sahip olduğu uzmanlık ve deneyimle Türk ve yabancı müvekkillerine çeşitli hukuk alanlarında en iyi şekilde temsil, dava ve danışmanlık hizmeti sunmaktadır.
+                    Av. Beyza ALBAYRAK, İstanbul merkezli ofisiyle, sahip olduğu uzmanlık ve deneyimle Türk ve yabancı müvekkillerine çeşitli hukuk alanlarında en iyi şekilde temsil, dava ve danışmanlık hizmeti sunmaktadır.
                   </p>
                   <p className="mb-4">
                     Her dava ve müvekkil ayrı ayrı önem arz ettiğinden her hukuki olay kişiselleştirilmekte ve kendi özelinde detaylı bir şekilde değerlendirilmektedir.
