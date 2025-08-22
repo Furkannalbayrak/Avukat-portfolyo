@@ -26,21 +26,28 @@ const YabancilarHukuku = () => {
               <div className="md:ml-10">
                 <div className="flex md:w-10/12 mb-8">
                   <h3 className="text-2xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">
-                    Yabancılar Hakları
+                    Yabancı Hakları
                   </h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Tescil ve tanıma işlemleri</li>
+                  <li>Sözleşmelerin uluslararası geçerliliği</li>
+                  <li>Çifte vatandaş veya yabancı uyruklu eşlerin hakları</li>
+                  <li>Mal varlığı ve borç işlemleri</li>
+                  <li>Boşanma, velayet, nafaka ve tazminat davaları</li>
+                  <li>Miras paylaşımı davası</li>
+                  <li>Alacak ve tazminat davası</li>
+                  <li>Tanıma ve tenfiz davası</li>
+                  <li>Uluslararası ödeme ve ticari işlemler</li>
+                  <li>Vatandaşlık edinme işlemleri</li>
+                  <li>Vatandaşlığın kaybı ve iptali</li>
+                  <li>İdareye başvuru</li>
                   <li>İzin ve vize işlemleri</li>
-                  <li>İkamet hakları</li>
+                  <li>Çalışma ve ikamet izni</li>
                   <li>İş ve meslek hakları</li>
-                  <li>İşte haklar ve sorumluluklar</li>
-                  <li>İşte düzenlemeleri</li>
-                  <li>İşte muameleleri</li>
-                  <li>İşte koruma</li>
-                  <li>İşte düzenlemeleri</li>
                 </ul>
               </div>
             </div>

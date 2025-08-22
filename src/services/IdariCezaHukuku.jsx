@@ -25,20 +25,17 @@ const IdariCezaHukuku = () => {
             <div className="mb-8 md:mt-8 lg:mt-0">
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
-                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İdari Ceza Hakları</h3>
+                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İlgili Alanlar</h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
-                  <li>İdari ceza davaları</li>
-                  <li>İdari ceza hakları</li>
-                  <li>İdari ceza işlemler</li>
-                  <li>İdari ceza hakları</li>
-                  <li>İdari ceza hakları</li>
-                  <li>İdari ceza hakları</li>
-                  <li>İdari ceza hakları</li>
-                  <li>İdari ceza hakları</li>
+                  <li>İdari ceza kararının iptali</li>
+                  <li>Ruhsat ve yetki belgelerinin iptali</li>
+                  <li>Para cezası, faaliyetten men ve ruhsat iptaline itiraz</li>
+                  <li>İdari itiraz başvurusu veya düzeltme talebi</li>
+                  <li>Tazminat davası</li>
                 </ul>
               </div>
             </div>

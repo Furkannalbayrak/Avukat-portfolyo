@@ -33,7 +33,10 @@ const BorclarHukuku = () => {
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Tazminat davası</li>
                   <li>Alacak ve borç ilişkileri</li>
+                  <li>Alacak davaları</li>
+                  <li>Çek, bono ve senet düzenleme</li>
                   <li>Sözleşmelerin hazırlanması ve incelenmesi</li>
                   <li>Borçların ifası ve temerrüt halleri</li>
                   <li>Haksız fiil ve tazminat davaları</li>
@@ -41,6 +44,9 @@ const BorclarHukuku = () => {
                   <li>Borçların sona erdirilmesi</li>
                   <li>Kefalet ve garanti işlemleri</li>
                   <li>Diğer borçlar hukuku işlemleri</li>
+                  <li>Vekaletname, vasiyetname ve ibraname düzenlenmesi</li>
+                  <li>Satış, kira, hizmet, kefalet ve eser sözleşmeleri</li>
+                  <li>Maddi ve manevi tazminat</li>
                 </ul>
               </div>
             </div>

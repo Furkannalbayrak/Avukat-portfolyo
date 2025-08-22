@@ -25,19 +25,21 @@ const TazminatHukuku = () => {
             <div className="mb-8 md:mt-8 lg:mt-0">
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
-                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">Tazminat İşlemleri</h3>
+                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İlgili Alanlar</h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Haksız fiil dayalı maddi ve manevi tazminat davaları</li>
+                  <li>Sözleşmeye dayalı tazminat davası</li>
+                  <li>Sebepsiz zenginleşmeye dayalı istirdat davası</li>
+                  <li>İş ilişkisine dayali iş kazası tazminatı</li>
+                  <li>Kamu uyarınca tam yargı davası</li>
+                  <li>Tazminat hesaplama</li>
                   <li>Tazminat hakları</li>
-                  <li>Tazminat davaları</li>
                   <li>Tazminat tespitleri</li>
                   <li>Tazminat tahsilatları</li>
-                  <li>Tazminat düzenlemeleri</li>
-                  <li>Tazminat muameleleri</li>
-                  <li>Tazminat koruma</li>
                   <li>Tazminat düzenlemeleri</li>
                 </ul>
               </div>

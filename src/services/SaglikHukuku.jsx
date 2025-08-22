@@ -25,20 +25,22 @@ const SaglikHukuku = () => {
             <div className="mb-8 md:mt-8 lg:mt-0">
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
-                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">Sağlık Hakları</h3>
+                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İlgili Alanlar</h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Sağlık hizmetinde ihmal veya hatalı uygulamalar</li>
+                  <li>Maddi ve manevi tazminat davası</li>
+                  <li>Malpraktis davası</li>
+                  <li>Sağlık personeli, disiplin ve soruşturma işlemleri</li>
+                  <li>Sağlık personeli atama ve görevlendirme işlemleri</li>
+                  <li>Denetim ve lisans kontrolleri</li>
+                  <li>Hasta hakları ve şikayet başvuruları</li>
+                  <li>Tedavi ve hizmet sözleşmeleri</li>
                   <li>Tıbbi muamele hakları</li>
                   <li>İlaç ve tedavi hakları</li>
-                  <li>Hastane hakları</li>
-                  <li>Hastane hakları</li>
-                  <li>Hastane hakları</li>
-                  <li>Hastane hakları</li>
-                  <li>Hastane hakları</li>
-                  <li>Hastane hakları</li>
                 </ul>
               </div>
             </div>

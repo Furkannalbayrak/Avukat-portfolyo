@@ -26,21 +26,25 @@ const BilisimHukuku = () => {
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
                   <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">
-                    Bilişim Hakları
+                    İlgili Alanlar
                   </h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Erişim engelleme ve itiraz süreçleri</li>
+                  <li>Kişisel verilerin korunması</li>
+                  <li>Özel hayatın gizliliğinin korunması</li>
+                  <li>Haksız içeriklerin kaldırıması</li>
+                  <li>BTK kararları</li>
+                  <li>Elektronik ticaret sözleşmeleri</li>
+                  <li>Hizmet sağlayıcı sözleşmeleri</li>
+                  <li>Lisans ve yazılım sözleşmeleri</li>
+                  <li>İnternet sitelerinin ve sosyal medya hesaplarının tespiti</li>
+                  <li>İçerik çıkarma ve düzeltilmesi talepleri</li>
+                  <li>Bilişim kanalları ile işlenen suçlar</li>
                   <li>Veri koruma ve gizlilik</li>
-                  <li>Yazılım lisansları</li>
-                  <li>Internet hukuku</li>
-                  <li>Elektronik imza</li>
-                  <li>Web sitesi hukuku</li>
-                  <li>Veri transferi</li>
-                  <li>Cloud hukuku</li>
-                  <li>Cyber güvenlik</li>
                 </ul>
               </div>
             </div>

@@ -33,12 +33,25 @@ const AileveMirasHukuku = () => {
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
-                  <li>Evlenme ve boşanma işlemlerini</li>
-                  <li>Çocuk bakım ve besleyicilik hakları</li>
-                  <li>Miras payı ve miras hakları</li>
-                  <li>Testament ve vasiyetname işlemleri</li>
-                  <li>Evlat edinme işlemlerini</li>
-                  <li>Aile malları ve mal varlığı</li>
+                  <li>Evlilik sözleşmesi</li>
+                  <li>Boşanma protokolü, anlaşmalı boşanma</li>
+                  <li>Mal rejimi sözleşmeleri, mal ayrılığı sözleşmeleri</li>
+                  <li>Vasiyetname, evlat edinme, tanıma, ibraname ve bağışlama</li>
+                  <li>Taşınmaz satış ve kira sözleşmeleri</li>
+                  <li>Vesayet/kayyım atama davası</li>
+                  <li>Kısıtlılık/vesayet denetimi</li>
+                  <li>Boşanma davaları</li>
+                  <li>Nafaka davaları</li>
+                  <li>Velayet ve kişisel ilişki davaları</li>
+                  <li>Evlat edinme ve tanıma davaları</li>
+                  <li>Mirasın reddi ve kabulu</li>
+                  <li>Mirasçılık belgesi ve tespiti</li>
+                  <li>Vasiyetnamenin iptali</li>
+                  <li>Miras paylaşımı ve tazminat davaları</li>
+                  <li>Mülkiyetin korunması davaları</li>
+                  <li>El atma ve işgal davaları</li>
+                  <li>Maddi ve manevi tazminat davası</li>
+                  <li>Konut tahsisi</li>
                   <li>Evlat hakları ve sorumluluklar</li>
                   <li>Aile içi şiddet ve koruma</li>
                 </ul>

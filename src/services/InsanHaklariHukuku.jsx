@@ -31,14 +31,14 @@ const InsanHaklariHukuku = () => {
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Anayasa mahkemesine bireysel başvurusu</li>
+                  <li>AİHM(Avrupa İnsan Hakları Mahkemesi) başvurusu </li>
+                  <li>Ombudsman ve insan hakları kurulu başvuruları</li>
+                  <li>Ceza ve disiplin işlemleri</li>
+                  <li>Soruşturma ve inceleme başlatılması</li>
+                  <li>Maddi ve manevi tazminat davası</li>
                   <li>Temel haklar ve özgürlükler</li>
-                  <li>Özel hayat koruması</li>
-                  <li>İş ve meslek hakları</li>
-                  <li>İşte eşitlik ve yasaklara karşı koruma</li>
-                  <li>Özgürlük hakları ve koruma</li>
                   <li>İnsan hakları ihlalleri</li>
-                  <li>İnsan hakları davaları</li>
-                  <li>İnsan hakları koruma</li>
                 </ul>
               </div>
             </div>

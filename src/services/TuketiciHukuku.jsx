@@ -31,14 +31,18 @@ const TuketiciHukuku = () => {
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
-                  <li>Tüketici hakları</li>
-                  <li>Tüketici hakları</li>
-                  <li>Tüketici hakları</li>
-                  <li>Tüketici hakları</li>
-                  <li>Tüketici hakları</li>
-                  <li>Tüketici hakları</li>
-                  <li>Tüketici hakları</li>
-                  <li>Tüketici hakları</li>
+                  <li>Ürün veya hizmetin değiştirilmesi</li>
+                  <li>Ürün veya hizmetin onarılması</li>
+                  <li>Ücretin iadesi talebi</li>
+                  <li>Garanti kapsamında işlem yapma</li>
+                  <li>Tüketici hakem heyetine şikayet başvurusu</li>
+                  <li>Mesafeli sözleşmeler ve internet alışverişleri</li>
+                  <li>Ön ödemeli hizmetler ve sözleşmeler</li>
+                  <li>Kampanya, indirim ve reklamlarla ilgili sözleşmeler</li>
+                  <li>Ayıplı mal bildirimi ve iade işlemleri</li>
+                  <li>Cayma hakkının kullanımı</li>
+                  <li>İade, değişim ve bedel indirimi davası</li>
+                  <li>Sözleşmeden doğan tazminat davası</li>
                 </ul>
               </div>
             </div>

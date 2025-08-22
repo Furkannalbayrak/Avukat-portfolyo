@@ -25,20 +25,26 @@ const TicaretHukuku = () => {
             <div className="mb-8 md:mt-8 lg:mt-0">
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
-                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">Ticaret Hakları</h3>
+                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İlgili Alanlar</h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Şirket kuruluşu</li>
+                  <li>Şirket sözleşmesi ve değişiklikler</li>
+                  <li>Yönetim, temsil ve hissedar işlemleri</li>
+                  <li>Pay devri, sermaye artırımı ve temettü dağıtımı</li>
+                  <li>Tasfiye ve sona erme işlemleri</li>
+                  <li>Ticari vekillik ve acentelik işlemleri</li>
+                  <li>Kıymetli evrak düzenleme (bono, poliçe, çek, senet)</li>
+                  <li>Satış, hizmet, komisyon ve taşıma sözleşmeleri</li>
+                  <li>Alacak ve tazminat davaları</li>
+                  <li>Sigorta tazminat davaları</li>
+                  <li>Şirketin fesi ve iptali davası</li>
                   <li>Şirket kurulumu ve işletme açılışı</li>
                   <li>İşletme devralma ve satış işlemleri</li>
                   <li>Ticari borçlanma işlemleri</li>
-                  <li>İşletme yasaları ve düzenlemeler</li>
-                  <li>Ticari anlaşmalar ve sözleşmeler</li>
-                  <li>İşletme hakları ve sorumluluklar</li>
-                  <li>Ticari müdahele ve müdahale</li>
-                  <li>Ticaret hakları ve borçları</li>
                 </ul>
               </div>
             </div>

@@ -25,18 +25,19 @@ const SigortaHukuku = () => {
             <div className="mb-8 md:mt-8 lg:mt-0">
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
-                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">Sigorta Hakları</h3>
+                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İlgili Alanlar</h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
-                  <li>Özel sigorta hakları</li>
-                  <li>Genel sigorta hakları</li>
-                  <li>Özel sigorta hakları</li>
-                  <li>Genel sigorta hakları</li>
-                  <li>Özel sigorta hakları</li>
-                  <li>Genel sigorta hakları</li>
+                  <li>Sigorta sözleşmeleri</li>
+                  <li>Hasar ve tazminat işlemleri</li>
+                  <li>Alacak ve tazminat davası</li>
+                  <li>Sigorta hakem heyetine başvuru</li>
+                  <li>Sigorta şirketine başvuru</li>
+                  <li>Trafik ve iş kazaları</li>
+                  <li>Sigortalının beyan ve bildirim yükümlülükleri</li>
                   <li>Özel sigorta hakları</li>
                   <li>Genel sigorta hakları</li>
                 </ul>

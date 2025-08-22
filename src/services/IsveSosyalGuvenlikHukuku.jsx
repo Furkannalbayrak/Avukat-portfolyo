@@ -26,7 +26,7 @@ const IsveSosyalGuvenlikHukuku = () => {
             <div className="mb-8 md:mt-8 lg:mt-0">
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
-                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İş ve Sosyal Hakları</h3>
+                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İlgili Alanlar</h3>
                 </div>
               </div>
 
@@ -40,6 +40,15 @@ const IsveSosyalGuvenlikHukuku = () => {
                   <li>İşyeri düzenlemeleri ve düzenlemeler</li>
                   <li>İşçilik hakları ve koruma</li>
                   <li>İşyeri güvenliği ve sağlık</li>
+                  <li>İş sözleşmesi düzenleme</li>
+                  <li>Toplu iş sözleşmesi</li>
+                  <li>Alt işverenlik</li>
+                  <li>Çalışma koşullarında değişiklik</li>
+                  <li>İsçilik alacakları davası</li>
+                  <li>İşi iade davası</li>
+                  <li>Maddi ve manevi tazminat</li>
+                  <li>Mobbing davaları</li>
+                  <li>Sendikal nedenli davalar</li>
                 </ul>
               </div>
             </div>

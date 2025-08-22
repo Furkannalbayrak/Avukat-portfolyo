@@ -26,14 +26,14 @@ const CezaHukuku = () => {
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
                   <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">
-                    Suç Türleri
+                    İlgili Alanlar
                   </h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
-                  <li>Cinayet ve kasten öldürme suçları</li>
+                  <li>Cinayet, öldürme ve yaralama suçları</li>
                   <li>Hırsızlık, gasp ve yağma suçları</li>
                   <li>Dolandırıcılık ve sahtecilik suçları</li>
                   <li>Uyuşturucu madde ile ilgili suçlar</li>
@@ -41,6 +41,12 @@ const CezaHukuku = () => {
                   <li>Hakaret, tehdit ve şantaj suçları</li>
                   <li>Rüşvet ve yolsuzluk suçları</li>
                   <li>Terör ve örgüt suçları</li>
+                  <li>Kişiyi hürriyetinden yoksun kılma suçu</li>
+                  <li>Konut dokunulmazlığının ihlali</li>
+                  <li>Güveni kötüye kullanma suçu</li>
+                  <li>Mala zarar verme suçu</li>
+                  <li>Kişisel verileri yayma, ele geçirme ve kaydetme suçları</li>
+
                 </ul>
               </div>
             </div>

@@ -25,20 +25,27 @@ const KiraHukuku = () => {
             <div className="mb-8 md:mt-8 lg:mt-0">
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
-                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">Kira İşlemleri</h3>
+                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İlgili Alanlar</h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Konut kira sözleşmesi</li>
+                  <li>İşyeri kira sözleşmesi</li>
+                  <li>Tarla ve arazi kiraları</li>
+                  <li>Kat irtifakı/ortak alan kira sözleşmeleri</li>
+                  <li>Tahliye davaları</li>
+                  <li>Kira alacak davaları</li>
+                  <li>Tazminat davaları</li>
+                  <li>Kira bedelinin belirlenmesi, artırılması davası</li>
+                  <li>Kira sözleşmesi hazırlanması ve düzenlenmesi</li>
+                  <li>İhbar ve ihtarname gönderilmesi</li>
+                  <li>Kiracı hakları ve sorumluluklar</li>
+                  <li>Kiraya veren hakları ve sorumlulukları</li>
+                  <li>Kiraya verilen taşınmazın teslimi</li>
                   <li>Kira sözleşmeleri</li>
                   <li>Kira bedeli ve ödemeler</li>
-                  <li>Kira hakları ve sorumluluklar</li>
-                  <li>Kira tazminatları</li>
-                  <li>Kira muameleleri</li>
-                  <li>Kira düzenlemeleri</li>
-                  <li>Kira davaları</li>
-                  <li>Kira koruma</li>
                 </ul>
               </div>
             </div>

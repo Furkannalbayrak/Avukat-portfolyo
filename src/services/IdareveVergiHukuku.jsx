@@ -26,21 +26,24 @@ const IdareveVergiHukuku = () => {
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
                   <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">
-                    İdare ve Vergi Hakları
+                    İlgili Alanlar
                   </h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Atama, disiplin cezası, ruhsat verilmesi</li>
+                  <li>İnşaat izni, memurun görevden alınması</li>
+                  <li>İhale ve imtiyaz sözleşmeleri</li>
+                  <li>İdari işlemin iptali davası</li>
+                  <li>İdari işlem ve eylemden kaynaklanan zararların tazmini</li>
+                  <li>Vergi tarh ve tahakkukuna karşı davalar</li>
+                  <li>Usulsuzluk ve kaçakçılık cezalarına karşı davalar</li>
+                  <li>Ödeme emrine, haciz ve satış işlemlerine karşı davalar</li>
                   <li>İdare davaları ve işlemler</li>
                   <li>Vergi hakları ve borçları</li>
-                  <li>İdare kararları ve işlemler</li>
-                  <li>Vergi muameleleri ve işlemler</li>
                   <li>İdare hakları ve borçları</li>
-                  <li>Vergi hakları ve borçları</li>
-                  <li>İdare hakları ve borçları</li>
-                  <li>Vergi hakları ve borçları</li>
                 </ul>
               </div>
             </div>

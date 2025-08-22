@@ -25,20 +25,24 @@ const SozlesmelerHukuku = () => {
             <div className="mb-8 md:mt-8 lg:mt-0">
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
-                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">Sözleşme Hakları</h3>
+                  <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">İlgili Alanlar</h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
-                  <li>Sözleşme türleri</li>
-                  <li>Sözleşme hakları</li>
-                  <li>Sözleşme sorumlulukları</li>
-                  <li>Sözleşme davaları</li>
-                  <li>Sözleşme düzenlemeleri</li>
-                  <li>Sözleşme muameleleri</li>
-                  <li>Sözleşme koruma</li>
-                  <li>Sözleşme düzenlemeleri</li>
+                  <li>Sözleşme kurulması</li>
+                  <li>Satış, hizmet ve kira sözleşmeleri</li>
+                  <li>İş ve eser sözleşmeleri</li>
+                  <li>Temsil ve vekalet sözleşmeleri</li>
+                  <li>Sözleşme değişiklikleri ve feshi</li>
+                  <li>Sözlşemeye dayalı hak ve borçlar</li>
+                  <li>Tek taraflı hukuki işlemler</li>
+                  <li>Alacak ve tazminat davası</li>
+                  <li>Sözleşmeye dayalı ayıp davası</li>
+                  <li>Temerrüt ve haksız ifa halleri</li>
+                  <li>Ayıp ve gecikme halleri</li>
+                  <li>Cezai şart</li>
                 </ul>
               </div>
             </div>

@@ -26,21 +26,26 @@ const IcraveIflasHukuku = () => {
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
                   <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">
-                    İcra ve İflas Hakları
+                    İlgili Alanlar
                   </h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>İcra yolu ile alacak tahsili</li>
+                  <li>İcra takibi başlatma</li>
+                  <li>Haciz ve satış işlemleri</li>
+                  <li>Ödeme emrine itiraz</li>
+                  <li>İflas talebi ve iflasın tasfiyesi işlemleri</li>
+                  <li>Konkordato talepleri</li>
+                  <li>Borca itiraz davası</li>
+                  <li>Haczin ve satışın iptali davası</li>
+                  <li>İflasın iptali ve tasfiyesi davası</li>
                   <li>İcra ve tahsilat işlemleri</li>
-                  <li>İflas ve tahsilat işlemleri</li>
                   <li>Alacak ve borç hakları</li>
                   <li>Garanti ve teminat hakları</li>
-                  <li>Yırtıcı borcun hakları</li>
                   <li>Ödeme planları</li>
-                  <li>İcra ve tahsilat hakları</li>
-                  <li>İflas ve tahsilat hakları</li>
                 </ul>
               </div>
             </div>

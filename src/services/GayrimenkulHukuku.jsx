@@ -26,21 +26,27 @@ const GayrimenkulHukuku = () => {
               <div className='md:ml-10'>
                 <div className="flex md:w-10/12 mb-8">
                   <h3 className="text-3xl md:text-4xl lg:text-4xl xl:text-[40px] font-poppins text-gray-800">
-                    Gayrimenkul Hakları
+                    İlgili Alanlar
                   </h3>
                 </div>
               </div>
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Satış ve devir işlemleri</li>
+                  <li>Kat irtifakı ve kat mülkiyeti tesis etme</li>
+                  <li>Bağışlama ve ipotek işlemleri</li>
+                  <li>İrtifak, rehin, taşınmaz yükü, şerh koyma hak ve işlemleri</li>
+                  <li>Tapu tescili ve terkin işlemleri</li>
+                  <li>Ortak kullanım ve ortak kullanım alan düzenlemeleri</li>
+                  <li>Mülkiyet tespiti ve tapu iptali tescili davası</li>
+                  <li>Kira ve kullanımdan kaynaklanan davalar</li>
+                  <li>Pay tesipi ve ortak alanın kullanımı</li>
                   <li>Gayrimenkul alım-satım işlemleri</li>
                   <li>Kira ve kiralık hakları</li>
-                  <li>Mülk tescili ve tasarruf</li>
                   <li>Mülk vergisi ve vergi hakları</li>
                   <li>Tasarruf ve kullanım hakları</li>
-                  <li>Mülk tescili ve tasarruf</li>
                   <li>İnşaat ve arsa hakları</li>
-                  <li>Gayrimenkul tescili</li>
                 </ul>
               </div>
             </div>
