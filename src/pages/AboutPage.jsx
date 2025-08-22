@@ -31,16 +31,19 @@ function AboutPage() {
 
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-7 mb-12 mx-auto">
                 <div className="lg:col-span-2 bg-white rounded-lg shadow-md p-8">
-                  <h2 className="text-2xl font-bold mb-6 text-gray-800">Kimim?</h2>
+                  <h2 className="text-2xl font-bold mb-6 text-gray-800">Kimdir?</h2>
                   <div className="space-y-5 text-gray-800 leading-relaxed text-[17px]">
                     <p>
-                      Merhaba, ben Av. Beyza Albayrak. 2023 yılında Kocaeli Üniversitesi Hukuk Fakültesi'nden mezun olduktan sonra, aynı yıl İstanbul Barosu'na kaydolarak avukatlık mesleğine başladım. 2 yılı aşkın süren meslek hayatımda, hukukun farklı alanlarında uzmanlaşarak müvekkillerime kapsamlı hizmet sunuyorum.
+                     Av. Beyza ALBAYRAK, İstanbul merkezli ofisiyle, sahip olduğu uzmanlık ve deneyimle Türk ve yabancı müvekkillerine çeşitli hukuk alanlarında en iyi şekilde temsil, dava ve danışmanlık hizmeti sunmaktadır.
                     </p>
                     <p>
-                      Avukatlık sadece bir meslek değil, benim için bir tutku ve sorumluluk. Her müvekkilimle kurduğum güven ilişkisini koruyarak, onların hukuki problemlerine en uygun çözümleri bulmaya odaklanıyorum. Hukuki süreçlerin karmaşıklığını basitleştirerek, müvekkillerimin anlayabileceği şekilde açıklama yapmaya özen gösteriyorum.
+                      Her dava ve müvekkil ayrı ayrı önem arz ettiğinden her hukuki olay kişiselleştirilmekte ve kendi özelinde detaylı bir şekilde değerlendirilmektedir.
                     </p>
                     <p>
-                      Meslek hayatım boyunca edindiğim deneyimlerle, her davanın kendine özgü olduğunu ve özel bir yaklaşım gerektirdiğini öğrendim. Bu nedenle her müvekkilime kişiselleştirilmiş hukuki danışmanlık hizmeti sunuyorum.
+                      Ceza Hukuku, Aile Hukuku, İş Hukuku, Tazminat Hukuku, Kira Hukuku, İcra ve İflas Hukuku başta olmak üzere, çeşitli hukuk alanlarında bireylere ve kurumlara danışmanlık ve dava takibi hizmetleri sunmaktadır.
+                    </p>
+                    <p>
+                      Avukatlık mesleğini etik değerlere bağlı kalarak yürütmeyi, her müvekkiline şeffaf, özenli ve etkin bir hukuki destek sunmayı ilke edinmiştir. Hizmet anlayışı, müvekkil ile güvene dayalı sağlam bir iletişim kurmak ve her aşamada çözüm odaklı yaklaşmaktır.
                     </p>
                   </div>
                 </div>
@@ -180,13 +183,13 @@ function AboutPage() {
               </div>
             </div>
 
-            <div className="mt-12 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg shadow-md p-8 text-white text-center">
+            <div className="mt-12 bg-gradient-to-r from-purple-300 to-purple-700 rounded-lg shadow-md p-8 text-white text-center">
               <h2 className="text-2xl font-bold mb-4">Hukuki Desteğe İhtiyacınız mı Var?</h2>
               <p className="text-lg mb-6 opacity-90">
                 Deneyimim ve uzmanlığımla, hukuki problemlerinize en uygun çözümleri bulmanıza yardımcı olacağım.
               </p>
               <button onClick={() => navigate("/contact")}
-                className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                className="bg-white text-blue-800 px-8 py-3 rounded-lg font-semibold hover:bg-purple-200 transition-colors">
                 Hemen İletişime Geçin
               </button>
             </div>

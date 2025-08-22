@@ -4,28 +4,23 @@ import { Helmet } from 'react-helmet';
 const ArticlePage = () => {
   const articles = [
     {
-      title: "Yargıtay 13. Daire Kararı",
-      date: "12 Haziran 2025",
-      excerpt: "İş hukuku konusunda önemli bir karar...",
-      author: "Yargıtay 13. Daire",
-      caseNumber: "E.2025/54321, K.2025/9876",
-      image: "https://admin.kontder.com.tr/upload/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-09-30%20214831-1561566685.png"
+      title: "Yargıtay 15. Hukuk Dairesi",
+      excerpt: '"Burun ameliyatı sonucunda oluşan şekil bozukluğu nedeniyle davacı 2. operasyonun bedelini ve manevi tazminat talep edebilir"',
+      caseNumber: "E.2017/2716, K.2019/3692",
+      image: "https://cdnuploads.aa.com.tr/uploads/Contents/2019/02/19/thumbs_b_c_a9f7fb3fc780cbc61ab3d5662fdaa58c.jpg"
     },
     {
-      title: "Yargıtay 13. Daire Kararı",
-      date: "12 Haziran 2025",
-      excerpt: "İş hukuku konusunda önemli bir karar...",
-      author: "Yargıtay 13. Daire",
-      caseNumber: "E.2025/54321, K.2025/9876",
-      image: "https://admin.kontder.com.tr/upload/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-09-30%20214831-1561566685.png"
+      title: "Yargıtay 8. Ceza Dairesi",
+      excerpt: '"Sanığın rızası bulunsa dahi kolluk tarafından şüphelilerin telefonları incelenip mesaj ve benzeri bilgiler kayıt altına alınamaz. Bunun için hakim kararı veya savcılığın yazılı emri bulunması gerekir."',
+      caseNumber: "E.2024/1821, K.2024/4126",
+      image: "https://gozdeyavuzer.com/wp-content/uploads/2024/07/Telefon-Karistirma-Gozde-Yavuzer.webp"
     },
     {
-      title: "Yargıtay 13. Daire Kararı",
-      date: "12 Haziran 2025",
-      excerpt: "İş hukuku konusunda önemli bir karar...",
+      title: "Yargıtay 2. Hukuk Dairesi",
+      excerpt: '"Paranın alım gücünün azalması sebebiyle takdir edilen maddi tazminat miktarının artışına karar verilebilir"',
       author: "Yargıtay 13. Daire",
-      caseNumber: "E.2025/54321, K.2025/9876",
-      image: "https://admin.kontder.com.tr/upload/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-09-30%20214831-1561566685.png"
+      caseNumber: "E.2024/9327, K.2025/1307",
+      image: "https://img-s1.onedio.com/id-6301ffd1af54f7ae3d451d3b/rev-0/w-600/h-337/f-jpg/s-4d17ed6c1d3d36b926ac3534472b96c0b5ed552d.jpg"
     },
   ];
 
