@@ -30,14 +30,12 @@ const DavaDosyasiInceleme = () => {
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
-                  <li>Dosya analizi ve değerlendirme</li>
-                  <li>Risk değerlendirmesi</li>
-                  <li>Stratejik öneriler</li>
-                  <li>Dosya iyileştirme önerileri</li>
-                  <li>Dosya yönetim danışmanlığı</li>
-                  <li>Dosya risk yönetimi</li>
-                  <li>Dosya iyileştirme planları</li>
-                  <li>Dosya yönetim raporları</li>
+                  <li>Dosya inceleme, görüş bildirme ve yönlendirme</li>
+                  <li>Mevzuata aykırılık ve eksiklikkerlin tespiti</li>
+                  <li>Tarafların hak ve yükümlülüklerin değerlendirilmesi</li>
+                  <li>Delil durumunun değerlendirilmesi</li>
+                  <li>Ayrıntılı hukuki görüş hazırlanması ve rapor verilmesi</li>
+                  <li>Alternatif çözüm önerilerinin sunulması</li>
                 </ul>
               </div>
             </div>

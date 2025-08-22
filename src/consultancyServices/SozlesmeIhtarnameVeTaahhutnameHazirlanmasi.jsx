@@ -31,14 +31,15 @@ const SozlesmeIhtarnameVeTaahhutnameHazirlanmasi = () => {
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
-                  <li>Sözleşme hazırlama ve gözden geçirme hizmetleri</li>
+                  <li>Sözleşme hazırlama ve düzenleme hizmetleri</li>
                   <li>İhtarname hazırlama ve gönderme</li>
-                  <li>Taahhutname hazırlama ve düzenleyici</li>
+                  <li>Taahhutname hazırlama ve düzenleme</li>
                   <li>İş hukuku sözleşmeleri</li>
                   <li>Ticaret hukuku sözleşmeleri</li>
                   <li>Kira ve kiralık sözleşmeleri</li>
                   <li>İş ortaklığı sözleşmeleri</li>
                   <li>Şirket kurma sözleşmeleri</li>
+                  <li>Mirasa ilişkin sözleşmeler</li>
                 </ul>
               </div>
             </div>

@@ -30,12 +30,18 @@ const IsletmeDanismanligi = () => {
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
+                  <li>Mevzuata uygunluk denetimleri</li>
+                  <li>Sözleşme hazırlama ve denetleme</li>
+                  <li>İş hukuku ve çalışan ilişkileri</li>
+                  <li>Ticari uyuşmazlıkların çözümü</li>
+                  <li>Alacak tahsili, borç yönetimi</li>
+                  <li>Hukuki süreçlerde temsil</li>
+                  <li>İşletme kuruluşundaki sürece destek</li>
+                  <li>Şirket içi politik ve proesdürlerin hazırlanması</li>
+                  <li>Hukuki risk raporlaması ve yönetime sunulması</li>
                   <li>İşletme analizi ve değerlendirme</li>
                   <li>Stratejik planlama danışmanlığı</li>
-                  <li>Risk yönetimi ve analizi</li>
-                  <li>İşletme iyileştirme danışmanlığı</li>
-                  <li>İşletme stratejisi geliştirme</li>
-                  <li>İşletme risk yönetimi</li>
+                  <li>İşletme iyileştirme danışmanlığı</li>   
                   <li>İşletme iyileştirme planları</li>
                   <li>İşletme yönetim danışmanlığı</li>
                 </ul>

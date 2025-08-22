@@ -35,7 +35,6 @@ const OnleyiciVeKoruyucuHukukiDanismanlik = () => {
                   <li>Önleyici stratejiler geliştirme</li>
                   <li>Koruyucu tedbirler</li>
                   <li>Yasal risk yönetimi</li>
-                  <li>Önleyici hukuki danışmanlık</li>
                   <li>Koruyucu tedbirlerin uygulanması</li>
                   <li>Yasal uyum kontrolü</li>
                   <li>Önleyici tedbirler</li>

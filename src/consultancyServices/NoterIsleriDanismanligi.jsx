@@ -30,14 +30,15 @@ const NoterIsleriDanismanligi = () => {
 
               <div className="text-gray-800 leading-relaxed">
                 <ul className="list-disc list-inside space-y-3 text-[19px] md:text-2xl font-serif">
-                  <li>Noterlik işlemlerinin yönetimi</li>
-                  <li>Noterlik danışmanlığı</li>
-                  <li>Noterlik işlemlerinin planlanması</li>
-                  <li>Noterlik arşiv yönetimi</li>
-                  <li>Noterlik işlemlerinin optimizasyonu</li>
-                  <li>Noterlik hukuki danışmanlığı</li>
-                  <li>Noterlik işlemlerinin takibi</li>
-                  <li>Noterlik raporlama</li>
+                  <li>Sözleşmelerin düzenlenmesi ve onaylanması</li>
+                  <li>Vekaletname işlemleri</li>
+                  <li>Taahhüt ve beyan işlemleri</li>
+                  <li>Tespit işlemleri</li>
+                  <li>Vasiyetname ve aile hukuku işlemleri</li>
+                  <li>Ticari ve şirket işlemleri</li>
+                  <li>Çeviri ve belge onay işlemleri</li>
+                  <li>Devir işlemleri</li>
+                  <li>İhtarname gönderilmesi</li>
                 </ul>
               </div>
             </div>
