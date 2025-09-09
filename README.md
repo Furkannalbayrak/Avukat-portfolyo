@@ -61,26 +61,26 @@ Yerelde çalıştırmak için:
 3. Proje klasörüne girin
 4. Terminal/Powershell’i bu klasörde açın
 5. Bağımlılıkları yükleyin
-```bash
-npm install
-```
-
+    ```bash
+    npm install
+    ```
+    
 6. Geliştirme sunucusunu başlatın
-```bash
-npm run dev
-```
-
+    ```bash
+    npm run dev
+    ```
+    
 7. Tarayıcıda verilen yerel adresi açın (örn. `http://localhost:5173`).
 
 ### Build Alma
 1. Üretim için optimize build:
-```bash
-npm run build
-```
+    ```bash
+    npm run build
+    ```
 2. Ardından önizleme için:
-```bash
-npm run preview
-```
+    ```bash
+    npm run preview
+    ```
 
 
 ## 🚢 GitHub Pages’e Deploy
