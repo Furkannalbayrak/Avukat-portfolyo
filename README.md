@@ -49,7 +49,7 @@ Canlı Demo: `https://Furkannalbayrak.github.io/Avukat-portfolyo/`
 - Tailwind CSS
 - React Router DOM (HashRouter)
 - React Helmet
-- (Projede hazır bulunan: Redux Toolkit, Formik + Yup, React Toastify)
+- (Projede hazır bulunan: Formik + Yup, React Toastify)
 
 
 ## 🛠 Kurulum ve Kullanım
