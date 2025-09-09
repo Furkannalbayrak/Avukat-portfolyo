@@ -43,11 +43,11 @@ Canlı Demo: `https://Furkannalbayrak.github.io/Avukat-portfolyo/`
 
 
 ## 💻 Kullanılan Teknolojiler ve Yazılım Dilleri
-- React (v19)
+- React
 - Vite
 - JavaScript (ES Modules)
 - Tailwind CSS
-- React Router DOM (HashRouter, v7)
+- React Router DOM (HashRouter)
 - React Helmet
 - (Projede hazır bulunan: Redux Toolkit, Formik + Yup, React Toastify)
 
