@@ -97,4 +97,4 @@ npm run deploy
 
 
 ## 📜 License
-Bu proje **ISC lisansı** altında sunulmaktadır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
+Bu proje **MIT lisansı** altında sunulmaktadır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
