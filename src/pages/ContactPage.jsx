@@ -135,7 +135,7 @@ const ContactPage = () => {
                           <FaInstagram />
                         </a>
                         <a
-                          href="https://linkedin.com/in/beyzaalbayrak"
+                          href="https://www.linkedin.com/in/beyza-albayrak-108b6421a/?originalSubdomain=tr"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-gray-600 hover:text-blue-600 transition-colors duration-200"

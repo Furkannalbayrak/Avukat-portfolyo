@@ -149,7 +149,7 @@ function Header() {
                                 </button>
                                 <button onClick={() => navigate("/contact")}
                                     className='bg-white text-black text-md md:text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-36 md:w-44 '>
-                                    İletişime Geçsin
+                                    İletişime Geçin
                                 </button>
 
                             </div>
