@@ -5,12 +5,20 @@ const IsveSosyalGuvenlikHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>İş ve Sosyal Güvenlik Hukuku - Hukuk Bürosu</title>
+        <title>İş ve Sosyal Güvenlik Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/is-ve-sosyal-guvenlik-hukuku" />
         <meta
           name="description"
           content="İş hakları, sosyal güvenlik hakları, iş kazası ve meslek hastalığı konularında hukuki danışmanlık."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="İş ve Sosyal Güvenlik Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="İş hakları, sosyal güvenlik hakları, iş kazası ve meslek hastalığı konularında hukuki danışmanlık." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/is-ve-sosyal-guvenlik-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

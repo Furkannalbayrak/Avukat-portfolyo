@@ -5,12 +5,20 @@ const TuketiciHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>Tüketici Hukuku - Tüketici Hakları ve Koruma</title>
+        <title>Tüketici Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/tuketici-hukuku" />
         <meta
           name="description"
           content="Tüketici hakları, koruma ve ilgili tüm hukuki işlemler hakkında kapsamlı bilgiler."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Tüketici Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="Tüketici hakları, koruma ve ilgili tüm hukuki işlemler hakkında kapsamlı bilgiler." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/tuketici-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

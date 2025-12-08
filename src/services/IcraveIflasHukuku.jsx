@@ -5,12 +5,20 @@ const IcraveIflasHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>İcra ve İflas Hukuku - Hukuk Bürosu</title>
+        <title>İcra ve İflas Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/icra-ve-iflas-hukuku" />
         <meta
           name="description"
           content="İcra ve iflas hukuku alanında icra ve tahsilat işlemleri, alacak ve borç hakları, teminat hakları ve ödeme planları konusunda uzman hukuki destek."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="İcra ve İflas Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="İcra ve iflas hukuku alanında icra ve tahsilat işlemleri, alacak ve borç hakları, teminat hakları ve ödeme planları konusunda uzman hukuki destek." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/icra-ve-iflas-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

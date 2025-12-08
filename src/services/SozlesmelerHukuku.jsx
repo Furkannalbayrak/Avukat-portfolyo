@@ -5,12 +5,20 @@ const SozlesmelerHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>Sözleşmeler Hukuku - Sözleşme Hakları ve Danışmanlık</title>
+        <title>Sözleşmeler Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/sozlesmeler-hukuku" />
         <meta
           name="description"
           content="Çeşitli sözleşme türleri, hakları, sorumlulukları ve sözleşme davaları hakkında detaylı hukuki bilgi ve danışmanlık."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Sözleşmeler Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="Çeşitli sözleşme türleri, hakları, sorumlulukları ve sözleşme davaları hakkında detaylı hukuki bilgi ve danışmanlık." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/sozlesmeler-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

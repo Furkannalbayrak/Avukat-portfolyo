@@ -5,12 +5,20 @@ const KiraHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>Kira Hukuku - Hukuki Danışmanlık</title>
+        <title>Kira Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/kira-hukuku" />
         <meta
           name="description"
           content="Kira sözleşmeleri, kira bedeli, kira hakları ve kira davaları hakkında uzman hukuki destek."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Kira Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="Kira sözleşmeleri, kira bedeli, kira hakları ve kira davaları hakkında uzman hukuki destek." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/kira-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

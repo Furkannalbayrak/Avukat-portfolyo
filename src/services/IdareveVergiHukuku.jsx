@@ -5,12 +5,20 @@ const IdareveVergiHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>İdare ve Vergi Hukuku - Hukuk Bürosu</title>
+        <title>İdare ve Vergi Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/idare-ve-vergi-hukuku" />
         <meta
           name="description"
           content="İdare ve vergi hukuku alanında idare davaları, vergi hakları, idare kararları ve işlemler konusunda uzman hukuki danışmanlık."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="İdare ve Vergi Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="İdare ve vergi hukuku alanında idare davaları, vergi hakları, idare kararları ve işlemler konusunda uzman hukuki danışmanlık." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/idare-ve-vergi-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

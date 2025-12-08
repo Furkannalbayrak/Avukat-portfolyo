@@ -5,12 +5,20 @@ const TazminatHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>Tazminat Hukuku - Haklar ve Davalar</title>
+        <title>Tazminat Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/tazminat-hukuku" />
         <meta
           name="description"
           content="Tazminat hakları, tazminat davaları, tespitler, tahsilatlar ve hukuki düzenlemeler hakkında detaylı bilgi."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Tazminat Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="Tazminat hakları, tazminat davaları, tespitler, tahsilatlar ve hukuki düzenlemeler hakkında detaylı bilgi." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/tazminat-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

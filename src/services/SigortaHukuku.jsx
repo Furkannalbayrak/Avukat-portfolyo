@@ -5,12 +5,20 @@ const SigortaHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>Sigorta Hukuku - Sigorta Hakları ve Danışmanlık</title>
+        <title>Sigorta Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/sigorta-hukuku" />
         <meta
           name="description"
           content="Özel ve genel sigorta hakları hakkında kapsamlı hukuki destek ve danışmanlık hizmetleri."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Sigorta Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="Özel ve genel sigorta hakları hakkında kapsamlı hukuki destek ve danışmanlık hizmetleri." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/sigorta-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

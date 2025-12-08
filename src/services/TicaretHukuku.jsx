@@ -5,12 +5,20 @@ const TicaretHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>Ticaret Hukuku - Şirket ve İşletme Hakları</title>
+        <title>Ticaret Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/ticaret-hukuku" />
         <meta
           name="description"
           content="Şirket kurulumu, işletme açılışı, ticari borçlanma, sözleşmeler ve ticari haklar hakkında detaylı bilgiler."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Ticaret Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="Şirket kurulumu, işletme açılışı, ticari borçlanma, sözleşmeler ve ticari haklar hakkında detaylı bilgiler." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/ticaret-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

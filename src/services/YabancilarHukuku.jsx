@@ -5,12 +5,20 @@ const YabancilarHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>Yabancılar Hukuku - İzin, Vize ve Haklar</title>
+        <title>Yabancılar Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/yabancilar-hukuku" />
         <meta
           name="description"
           content="Yabancılar hukuku, izin ve vize işlemleri, ikamet hakları ve iş ile ilgili hukuki düzenlemeler hakkında bilgiler."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Yabancılar Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="Yabancılar hukuku, izin ve vize işlemleri, ikamet hakları ve iş ile ilgili hukuki düzenlemeler hakkında bilgiler." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/yabancilar-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

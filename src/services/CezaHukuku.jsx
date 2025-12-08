@@ -5,12 +5,20 @@ const CezaHukuku = () => {
   return (
     <>
       <Helmet>
-        <title>Ceza Hukuku - Hukuk Bürosu</title>
+        <title>Ceza Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/ceza-hukuku" />
         <meta
           name="description"
           content="Ceza Hukuku alanında cinayet, hırsızlık, dolandırıcılık, uyuşturucu suçları, cinsel dokunulmazlık ihlalleri, rüşvet ve terör suçları gibi konularda hukuki danışmanlık."
         />
-        <meta name="robots" content="index, follow" />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Ceza Hukuku - Av. Beyza Albayrak | Hukuki Danışmanlık" />
+        <meta property="og:description" content="Ceza Hukuku alanında cinayet, hırsızlık, dolandırıcılık, uyuşturucu suçları, cinsel dokunulmazlık ihlalleri, rüşvet ve terör suçları gibi konularda hukuki danışmanlık." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/ceza-hukuku" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">
