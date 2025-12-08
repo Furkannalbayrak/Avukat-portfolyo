@@ -5,11 +5,20 @@ const NoterIsleriDanismanligi = () => {
   return (
     <>
       <Helmet>
-        <title>Noter İşleri Danışmanlığı - Hukuki Destek ve Yönetim</title>
+        <title>Noter İşleri Danışmanlığı - Hukuki Destek ve Yönetim | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/noter-isleri-danismanligi" />
         <meta
           name="description"
           content="Noterlik işlemlerinizin yönetimi, danışmanlığı ve hukuki takibi için profesyonel çözümler sunuyoruz."
         />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Noter İşleri Danışmanlığı - Hukuki Destek ve Yönetim | Av. Beyza Albayrak" />
+        <meta property="og:description" content="Noterlik işlemlerinizin yönetimi, danışmanlığı ve hukuki takibi için profesyonel çözümler sunuyoruz." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/noter-isleri-danismanligi" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

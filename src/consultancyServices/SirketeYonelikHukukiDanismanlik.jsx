@@ -5,11 +5,20 @@ const SirketeYonelikHukukiDanismanlik = () => {
   return (
     <>
       <Helmet>
-        <title>Şirkete Yönelik Hukuki Danışmanlık - Profesyonel Destek</title>
+        <title>Şirkete Yönelik Hukuki Danışmanlık - Profesyonel Destek | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/sirkete-yonelik-hukuki-danismanlik" />
         <meta
           name="description"
           content="Şirket kurulumu, yönetimi ve iş hukuku alanlarında uzman hukuki danışmanlık hizmetleri sunuyoruz."
         />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Şirkete Yönelik Hukuki Danışmanlık - Profesyonel Destek | Av. Beyza Albayrak" />
+        <meta property="og:description" content="Şirket kurulumu, yönetimi ve iş hukuku alanlarında uzman hukuki danışmanlık hizmetleri sunuyoruz." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/sirkete-yonelik-hukuki-danismanlik" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

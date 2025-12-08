@@ -5,11 +5,20 @@ const DavaDosyasiInceleme = () => {
   return (
     <>
       <Helmet>
-        <title>Dava Dosyası İnceleme - Hukuki Danışmanlık</title>
+        <title>Dava Dosyası İnceleme - Hukuki Danışmanlık | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/dava-dosyasi-inceleme" />
         <meta
           name="description"
           content="Dava dosyalarınızın analizi, risk değerlendirmesi ve stratejik hukuki önerilerle sürecinizi profesyonelce yönetin."
         />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Dava Dosyası İnceleme - Hukuki Danışmanlık | Av. Beyza Albayrak" />
+        <meta property="og:description" content="Dava dosyalarınızın analizi, risk değerlendirmesi ve stratejik hukuki önerilerle sürecinizi profesyonelce yönetin." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/dava-dosyasi-inceleme" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

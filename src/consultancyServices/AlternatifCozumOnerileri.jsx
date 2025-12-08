@@ -5,11 +5,20 @@ const AlternatifCozumOnerileri = () => {
   return (
     <>
       <Helmet>
-        <title>Alternatif Çözüm Önerileri - Hukuki Danışmanlık</title>
+        <title>Alternatif Çözüm Önerileri - Hukuki Danışmanlık | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/alternatif-cozum-onerileri" />
         <meta
           name="description"
           content="Mediation, Arbitration, Negotiation ve diğer alternatif çözüm hizmetleriyle hukuki süreçlerinizi kolaylaştırıyoruz."
         />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Alternatif Çözüm Önerileri - Hukuki Danışmanlık | Av. Beyza Albayrak" />
+        <meta property="og:description" content="Mediation, Arbitration, Negotiation ve diğer alternatif çözüm hizmetleriyle hukuki süreçlerinizi kolaylaştırıyoruz." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/alternatif-cozum-onerileri" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       
       <section className="bg-gray-100 flex justify-center">

@@ -5,11 +5,20 @@ const IsletmeDanismanligi = () => {
   return (
     <>
       <Helmet>
-        <title>İşletme Danışmanlığı - Profesyonel Stratejik Destek</title>
+        <title>İşletme Danışmanlığı - Profesyonel Stratejik Destek | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/isletme-danismanligi" />
         <meta
           name="description"
           content="İşletme analizi, stratejik planlama ve risk yönetimi ile işinizi geliştirmek için uzman danışmanlık hizmetleri sunuyoruz."
         />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="İşletme Danışmanlığı - Profesyonel Stratejik Destek | Av. Beyza Albayrak" />
+        <meta property="og:description" content="İşletme analizi, stratejik planlama ve risk yönetimi ile işinizi geliştirmek için uzman danışmanlık hizmetleri sunuyoruz." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/isletme-danismanligi" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

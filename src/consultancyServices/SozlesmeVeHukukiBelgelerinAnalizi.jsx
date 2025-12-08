@@ -5,11 +5,20 @@ const SozlesmeVeHukukiBelgelerinAnalizi = () => {
   return (
     <>
       <Helmet>
-        <title>Sözleşme ve Hukuki Belgelerin Analizi - Profesyonel Hukuki Destek</title>
+        <title>Sözleşme ve Hukuki Belgelerin Analizi | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/sozlesme-ve-hukuki-belgelerin-analizi" />
         <meta
           name="description"
           content="Sözleşme ve hukuki belgelerin detaylı analizi, risk değerlendirmesi ve yasal uyum kontrolü hizmetleri sunuyoruz."
         />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Sözleşme ve Hukuki Belgelerin Analizi | Av. Beyza Albayrak" />
+        <meta property="og:description" content="Sözleşme ve hukuki belgelerin detaylı analizi, risk değerlendirmesi ve yasal uyum kontrolü hizmetleri sunuyoruz." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/sozlesme-ve-hukuki-belgelerin-analizi" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

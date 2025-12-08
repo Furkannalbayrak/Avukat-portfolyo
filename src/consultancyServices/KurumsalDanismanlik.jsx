@@ -5,11 +5,20 @@ const KurumsalDanismanlik = () => {
   return (
     <>
       <Helmet>
-        <title>Kurumsal Danışmanlık - Strateji ve Risk Yönetimi</title>
+        <title>Kurumsal Danışmanlık - Strateji ve Risk Yönetimi | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/kurumsal-danismanlik" />
         <meta
           name="description"
           content="Kurumsal strateji, risk yönetimi, etik ve yönetim danışmanlığı alanlarında profesyonel destek sunuyoruz."
         />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Kurumsal Danışmanlık - Strateji ve Risk Yönetimi | Av. Beyza Albayrak" />
+        <meta property="og:description" content="Kurumsal strateji, risk yönetimi, etik ve yönetim danışmanlığı alanlarında profesyonel destek sunuyoruz." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/kurumsal-danismanlik" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

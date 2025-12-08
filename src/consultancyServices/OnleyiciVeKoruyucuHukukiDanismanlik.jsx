@@ -5,11 +5,20 @@ const OnleyiciVeKoruyucuHukukiDanismanlik = () => {
   return (
     <>
       <Helmet>
-        <title>Önleyici ve Koruyucu Hukuki Danışmanlık - Risk Yönetimi</title>
+        <title>Önleyici ve Koruyucu Hukuki Danışmanlık - Risk Yönetimi | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/onleyici-ve-koruyucu-hukuki-danismanlik" />
         <meta
           name="description"
           content="Risk analizi, önleyici stratejiler ve koruyucu tedbirlerle yasal uyum ve hukuki güvence sağlıyoruz."
         />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Önleyici ve Koruyucu Hukuki Danışmanlık - Risk Yönetimi | Av. Beyza Albayrak" />
+        <meta property="og:description" content="Risk analizi, önleyici stratejiler ve koruyucu tedbirlerle yasal uyum ve hukuki güvence sağlıyoruz." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/onleyici-ve-koruyucu-hukuki-danismanlik" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">

@@ -5,11 +5,20 @@ const SozlesmeIhtarnameVeTaahhutnameHazirlanmasi = () => {
   return (
     <>
       <Helmet>
-        <title>Sözleşme, İhtarname ve Taahhütname Hazırlanması - Hukuki Hizmetler</title>
+        <title>Sözleşme, İhtarname ve Taahhütname Hazırlanması | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/sozlesme-ihtarname-ve-taahhutname-hazirlanmasi" />
         <meta
           name="description"
           content="Sözleşme hazırlama, ihtarname gönderme ve taahhütname düzenleme alanlarında profesyonel hukuki destek sağlıyoruz."
         />
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Sözleşme, İhtarname ve Taahhütname Hazırlanması | Av. Beyza Albayrak" />
+        <meta property="og:description" content="Sözleşme hazırlama, ihtarname gönderme ve taahhütname düzenleme alanlarında profesyonel hukuki destek sağlıyoruz." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/sozlesme-ihtarname-ve-taahhutname-hazirlanmasi" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
       <section className="bg-gray-100 flex justify-center">
