@@ -122,6 +122,7 @@ const ServicesPage = () => {
 
       <Helmet>
         <title>Faaliyet Alanlarım - Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/services" />
         <meta
           name="description"
           content="Avukat Beyza Albayrak'ın uzmanlık alanları. Ceza Hukuku, Borçlar Hukuku, Aile Hukuku ve diğer hukuk dallarında profesyonel danışmanlık."
@@ -136,6 +137,10 @@ const ServicesPage = () => {
           property="og:description"
           content="Avukat Beyza Albayrak'ın uzmanlık alanları ve hukuki danışmanlık hizmetleri hakkında detaylı bilgi alın."
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/services" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
 

@@ -66,11 +66,16 @@ const ContactPage = () => {
 
       <Helmet>
         <title>İletişim - Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/contact" />
         <meta name="description" content="Avukat Beyza Albayrak ile iletişime geçin. Hukuki danışmanlık ve destek için formu doldurun ya da iletişim bilgilerimizi kullanın." />
         <meta name="keywords" content="iletişim, avukat, hukuki danışmanlık, av. beyza albayrak, telefon, e-posta, adres" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="İletişim - Av. Beyza Albayrak" />
         <meta property="og:description" content="Hukuki destek almak için Avukat Beyza Albayrak ile iletişime geçin." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/contact" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
 

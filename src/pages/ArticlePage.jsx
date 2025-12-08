@@ -29,11 +29,16 @@ const ArticlePage = () => {
 
       <Helmet>
         <title>Mevzuat & Hukuki Makaleler - Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/mevzuat" />
         <meta name="description" content="Avukat Beyza Albayrak tarafından paylaşılan güncel mevzuat ve hukuki makaleler." />
         <meta name="keywords" content="hukuki makaleler, mevzuat, yargıtay kararları, iş hukuku, avukat Beyza Albayrak" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Mevzuat & Hukuki Makaleler - Av. Beyza Albayrak" />
         <meta property="og:description" content="Güncel mevzuat ve hukuki makaleler için sayfamızı ziyaret edin." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/mevzuat" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
 

@@ -67,11 +67,16 @@ const ConsultancyServicesPage = () => {
     <>
       <Helmet>
         <title>Hukuki Danışmanlık Hizmetleri - Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/consultancy-services" />
         <meta name="description" content="Avukat Beyza Albayrak tarafından sunulan kapsamlı hukuki danışmanlık hizmetleri." />
         <meta name="keywords" content="hukuki danışmanlık, şirket hukuku, sözleşme analizi, önleyici hukuki danışmanlık, noter işleri" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Hukuki Danışmanlık Hizmetleri - Av. Beyza Albayrak" />
         <meta property="og:description" content="Geniş kapsamlı hukuki danışmanlık hizmetlerimizi keşfedin." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/consultancy-services" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
 

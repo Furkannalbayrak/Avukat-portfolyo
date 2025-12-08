@@ -11,11 +11,16 @@ function AboutPage() {
 
       <Helmet>
         <title>Hakkımda - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/about" />
         <meta name="description" content="Av. Beyza Albayrak'ın uzmanlık alanları, mesleki deneyimi ve hukuki hizmet anlayışı hakkında detaylı bilgi." />
         <meta name="keywords" content="Avukat Beyza Albayrak, Hukuki Danışmanlık, Ceza Hukuku, İş Hukuku, Aile Hukuku, Miras Hukuku" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Hakkımda - Av. Beyza Albayrak" />
         <meta property="og:description" content="Av. Beyza Albayrak'ın uzmanlık alanları ve mesleki deneyimi." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/about" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
 
 
