@@ -70,6 +70,7 @@ const Services = () => {
 
       <Helmet>
         <title>Hukuki Hizmetler | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/services" />
         <meta
           name="description"
           content="Ceza Hukuku, Borçlar Hukuku, İş Hukuku, Aile Hukuku gibi birçok alanda profesyonel hukuki danışmanlık hizmeti sunuyorum. Tüm faaliyet alanları için detaylara göz atın."
@@ -78,8 +79,8 @@ const Services = () => {
         <meta property="og:title" content="Hukuki Hizmetler | Av. Beyza Albayrak" />
         <meta property="og:description" content="Tüm hukuki faaliyet alanlarımızı inceleyin: Ceza, Borçlar, İş, Aile, Vergi Hukuku ve daha fazlası." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourwebsite.com/services" />
-        <meta property="og:image" content="https://yourwebsite.com/preview.jpg" />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/services" />
+        <meta property="og:image" content="https://www.beyzaalbayrak.com.tr/preview.jpg" />
 
         {/* JSON-LD yapısı: Service Listesi */}
         <script type="application/ld+json">
@@ -90,7 +91,7 @@ const Services = () => {
             "itemListElement": services.map((service, index) => ({
               "@type": "ListItem",
               "position": index + 1,
-              "url": `https://yourwebsite.com/${service.slug}`,
+              "url": `https://www.beyzaalbayrak.com.tr/${service.slug}`,
               "name": service.title,
               "image": service.image
             }))

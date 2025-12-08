@@ -45,12 +45,13 @@ const ConsultancyServices = () => {
         <>
             <Helmet>
                 <title>Hukuki Danışmanlık Hizmetleri | Albayrak Hukuk</title>
+                <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/consultancy-services" />
                 <meta name="description" content="Profesyonel hukuki danışmanlık hizmetleri ile iş ve şirketlerinizi koruyun. Sözleşme, analiz, önleyici ve kurumsal danışmanlık alanlarında destek." />
                 {/* Open Graph tags */}
                 <meta property="og:title" content="Hukuki Danışmanlık Hizmetleri | Albayrak Hukuk" />
                 <meta property="og:description" content="Profesyonel hukuki danışmanlık hizmetleri ile iş ve şirketlerinizi koruyun." />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content={window.location.href} />
+                <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/consultancy-services" />
                 <meta property="og:image" content={consultancyServices[0].image} />
                 {/* Twitter Card tags */}
                 <meta name="twitter:card" content="summary_large_image" />

@@ -28,6 +28,7 @@ function SimpleHeader() {
         <>
             <Helmet>
                 <title>Avukat Beyza Albayrak | İstanbul</title>
+                <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/" />
                 <meta name="description" content="Av. Beyza Albayrak - İstanbul merkezli, uzman hukuk hizmetleri sunar. Ceza, borçlar, aile, icra hukuku ve daha fazlası." />
                 <meta name="keywords" content="avukat, İstanbul avukat, ceza hukuku, aile hukuku, icra iflas hukuku, beyza albayrak" />
                 <meta name="author" content="Av. Beyza Albayrak" />
@@ -36,7 +37,7 @@ function SimpleHeader() {
                 <meta property="og:title" content="Avukat Beyza Albayrak | İstanbul Hukuk Bürosu" />
                 <meta property="og:description" content="Uzmanlık alanlarımızda güçlü çözümler sunuyoruz. Faaliyet alanlarımızı keşfedin." />
                 <meta property="og:image" content={images[bgIndex]} />
-                <meta property="og:url" content="https://yourwebsite.com/" />
+                <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/" />
                 <meta property="og:type" content="website" />
 
                 {/* JSON-LD: WebSite yapısı */}
@@ -45,13 +46,13 @@ function SimpleHeader() {
                         "@context": "https://schema.org",
                         "@type": "WebSite",
                         "name": "Avukat Beyza Albayrak",
-                        "url": "https://yourwebsite.com",
+                        "url": "https://www.beyzaalbayrak.com.tr",
                         "publisher": {
                             "@type": "Organization",
                             "name": "Av. Beyza Albayrak",
                             "logo": {
                                 "@type": "ImageObject",
-                                "url": "https://yourwebsite.com/logo.png"
+                                "url": "https://www.beyzaalbayrak.com.tr/logo.png"
                             }
                         }
                     })}

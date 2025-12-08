@@ -28,6 +28,7 @@ const Articles = () => {
     <>
       <Helmet>
         <title>Mevzuat ve Yargıtay Kararları | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/mevzuat" />
         <meta
           name="description"
           content="İş hukuku ve diğer alanlarda güncel Yargıtay kararlarını keşfedin. Hukuki gelişmelerden haberdar olun."
@@ -39,7 +40,7 @@ const Articles = () => {
           content="İş hukuku ve diğer alanlarda güncel Yargıtay kararlarını keşfedin. Hukuki gelişmelerden haberdar olun."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={window.location.href} />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/mevzuat" />
         <meta property="og:image" content={articles[0].image} />
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />

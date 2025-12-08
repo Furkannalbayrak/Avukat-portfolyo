@@ -60,6 +60,7 @@ function Header() {
 
             <Helmet>
                 <title>Av. Beyza Albayrak | Profesyonel Hukuki Danışmanlık Hizmetleri</title>
+                <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/" />
                 <meta
                     name="description"
                     content="Av. Beyza Albayrak ile profesyonel hukuki danışmanlık hizmetleri. Ceza hukuku, borçlar hukuku, iş hukuku ve daha fazlası hakkında güvenilir çözümler."
@@ -68,7 +69,7 @@ function Header() {
                 <meta property="og:title" content="Av. Beyza Albayrak | Profesyonel Hukuki Danışmanlık Hizmetleri" />
                 <meta property="og:description" content="Av. Beyza Albayrak ile profesyonel hukuki danışmanlık hizmetleri. Ceza hukuku, borçlar hukuku, iş hukuku ve daha fazlası hakkında güvenilir çözümler." />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content={window.location.href} />
+                <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/" />
                 <meta property="og:image" content={images[bgIndex]} />
                 {/* Twitter Card */}
                 <meta name="twitter:card" content="summary_large_image" />

@@ -6,8 +6,9 @@ import themis from '../images/about/themis.webp'
 const About = () => {
   return (
     <>
-    <Helmet>
+      <Helmet>
         <title>Hakkımda | Av. Beyza Albayrak</title>
+        <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/about" />
         <meta
           name="description"
           content="Av. Beyza Albayrak hakkında detaylı bilgi edinin. Etik değerlere bağlı, deneyimli ve güvenilir bir avukatlık hizmeti sunmaktadır."
@@ -16,7 +17,7 @@ const About = () => {
         <meta property="og:title" content="Hakkımda | Av. Beyza Albayrak" />
         <meta property="og:description" content="Av. Beyza Albayrak hakkında detaylı bilgi edinin. Etik değerlere bağlı, deneyimli ve güvenilir bir avukatlık hizmeti sunmaktadır." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={window.location.href} />
+        <meta property="og:url" content="https://www.beyzaalbayrak.com.tr/about" />
         <meta
           property="og:image"
           content="https://www.pngkey.com/png/full/560-5602499_clip-art-themis-figurine-greek-mythology-themis.png"

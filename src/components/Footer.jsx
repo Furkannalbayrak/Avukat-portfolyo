@@ -18,8 +18,8 @@ const Footer = () => {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Av. Beyza Albayrak",
-              "url": "https://yourwebsite.com",
-              "logo": "https://yourwebsite.com/logo.png",
+              "url": "https://www.beyzaalbayrak.com.tr",
+              "logo": "https://www.beyzaalbayrak.com.tr/logo.png",
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+90-543-223-8441",
