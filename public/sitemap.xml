@@ -1,67 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.avukatportfoy.com/</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/services</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/consultancy-services</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/services</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/services/ceza-hukuku</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/consultancy-services</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/mevzuat</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/contact</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/ceza-hukuku</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/services/borclar-hukuku</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/borclar-hukuku</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/services/is-ve-sosyal-guvenlik-hukuku</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/is-ve-sosyal-guvenlik-hukuku</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/services/idare-ve-vergi-hukuku</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/idare-ve-vergi-hukuku</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/services/aile-ve-miras-hukuku</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/aile-ve-miras-hukuku</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/consultancy-services/sirketlere-yonelik-hukuki-danismanlik</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/bilisim-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/gayrimenkul-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/icra-ve-iflas-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/idari-ceza-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/insan-haklari-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/kira-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/saglik-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/sigorta-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/sozlesmeler-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/tazminat-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/ticaret-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/tuketici-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/yabancilar-hukuku</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/sirketlere-yonelik-hukuki-danismanlik</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/consultancy-services/kurumsal-danismanlik</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/kurumsal-danismanlik</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/consultancy-services/sozlesme-ve-hukuki-belgelerin-analizi</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/sozlesme-ve-hukuki-belgelerin-analizi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/consultancy-services/onleyici-ve-koruyucu-hukuki-danismanlik</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/onleyici-ve-koruyucu-hukuki-danismanlik</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.avukatportfoy.com/consultancy-services/sozlesme-ihtarname-ve-taahhutname-hazirlanmasi</loc>
+    <loc>https://www.beyzaalbayrak.com.tr/sozlesme-ihtarname-ve-taahhutname-hazirlanmasi</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/alternatif-cozum-onerileri</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/isletme-danismanligi</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/dava-dosyasi-inceleme</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.beyzaalbayrak.com.tr/noter-isleri-danismanligi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
