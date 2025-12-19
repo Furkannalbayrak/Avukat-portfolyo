@@ -5,7 +5,7 @@ const SirketeYonelikHukukiDanismanlik = () => {
   return (
     <>
       <Helmet>
-        <title>Şirkete Yönelik Hukuki Danışmanlık - Profesyonel Destek | Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak | Şirkete Yönelik Hukuki Danışmanlık - Profesyonel Destek</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/sirkete-yonelik-hukuki-danismanlik" />
         <meta
           name="description"

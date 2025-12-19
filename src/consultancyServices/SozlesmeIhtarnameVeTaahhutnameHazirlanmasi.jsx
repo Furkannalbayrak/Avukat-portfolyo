@@ -5,7 +5,7 @@ const SozlesmeIhtarnameVeTaahhutnameHazirlanmasi = () => {
   return (
     <>
       <Helmet>
-        <title>Sözleşme, İhtarname ve Taahhütname Hazırlanması | Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak | Sözleşme, İhtarname ve Taahhütname Hazırlanması</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/sozlesme-ihtarname-ve-taahhutname-hazirlanmasi" />
         <meta
           name="description"

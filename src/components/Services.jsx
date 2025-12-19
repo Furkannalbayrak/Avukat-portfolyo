@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Helmet } from 'react-helmet';
 import services1 from '../images/servicess/services1.webp'
@@ -14,8 +14,6 @@ import services9 from '../images/servicess/services9.webp'
 
 
 const Services = () => {
-
-  const navigate = useNavigate();
 
   const services = [
     {
@@ -69,7 +67,7 @@ const Services = () => {
     <>
 
       <Helmet>
-        <title>Hukuki Hizmetler | Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak | Hukuki Hizmetler</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/services" />
         <meta
           name="description"
@@ -111,9 +109,9 @@ const Services = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto">
               {services.map((service, index) => (
-                <div onClick={() => navigate(`/${service.slug}`)}
+                <Link to={`/${service.slug}`}
                   key={index}
-                  className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer "
+                  className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer block relative"
                 >
                   <img
                     src={service.image}
@@ -138,16 +136,16 @@ const Services = () => {
                     </div>
 
                   </div>
-                </div>
+                </Link>
               ))}
-              <div onClick={() => navigate("/services")}
-                className="bg-white rounded-xl shadow-lg p-6 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer">
+              <Link to="/services"
+                className="bg-white rounded-xl shadow-lg p-6 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer block">
                 <div className="flex flex-col items-center text-center">
                   <h3 className='text-[32px] font-serif xl:mt-10 lg:mt-3 md:mt-6 mt-6'> Tüm Faatliyet</h3>
                   <h3 className='text-[32px] font-serif'> Alanlarına Göz at</h3>
                   <p><FaArrowRightLong className='text-7xl mt-5' /></p>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

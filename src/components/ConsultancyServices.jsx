@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Helmet } from "react-helmet";
 import consultancyServices1 from '../images/consultancyServices/consultancyServices1.webp'
@@ -10,7 +10,6 @@ import consultancyServices5 from '../images/consultancyServices/consultancyServi
 
 
 const ConsultancyServices = () => {
-    const navigate = useNavigate();
 
     const consultancyServices = [
         {
@@ -44,7 +43,7 @@ const ConsultancyServices = () => {
 
         <>
             <Helmet>
-                <title>Hukuki Danışmanlık Hizmetleri | Albayrak Hukuk</title>
+                <title>Av. Beyza Albayrak | Hukuki Danışmanlık Hizmetleri</title>
                 <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/consultancy-services" />
                 <meta name="description" content="Profesyonel hukuki danışmanlık hizmetleri ile iş ve şirketlerinizi koruyun. Sözleşme, analiz, önleyici ve kurumsal danışmanlık alanlarında destek." />
                 {/* Open Graph tags */}
@@ -72,9 +71,9 @@ const ConsultancyServices = () => {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto">
                             {consultancyServices.map((service, index) => (
-                                <div onClick={() => navigate(`/${service.slug}`)}
+                                <Link to={`/${service.slug}`}
                                     key={index}
-                                    className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer "
+                                    className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer block"
                                 >
                                     <img
                                         src={service.image}
@@ -96,10 +95,10 @@ const ConsultancyServices = () => {
                                             </button>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
                             ))}
-                            <div onClick={() => navigate("/consultancy-services")}
-                                className="bg-white rounded-xl shadow-lg p-6 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer">
+                            <Link to="/consultancy-services"
+                                className="bg-white rounded-xl shadow-lg p-6 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer block">
                                 <div className="flex flex-col items-center text-center">
                                     <div>
                                         <h3 className='text-[30px] font-serif xl:mt-10 lg:mt-0 md:mt-2 mt-6'> Tüm Danışmanlık</h3>
@@ -107,7 +106,7 @@ const ConsultancyServices = () => {
                                     </div>
                                     <p><FaArrowRightLong className='text-7xl mt-5' /></p>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

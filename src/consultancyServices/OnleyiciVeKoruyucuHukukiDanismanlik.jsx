@@ -5,7 +5,7 @@ const OnleyiciVeKoruyucuHukukiDanismanlik = () => {
   return (
     <>
       <Helmet>
-        <title>Önleyici ve Koruyucu Hukuki Danışmanlık - Risk Yönetimi | Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak | Önleyici ve Koruyucu Hukuki Danışmanlık - Risk Yönetimi</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/onleyici-ve-koruyucu-hukuki-danismanlik" />
         <meta
           name="description"

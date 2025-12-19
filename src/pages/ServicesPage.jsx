@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import services1 from '../images/servicess/services1.webp'
 import services2 from '../images/servicess/services2.webp'
@@ -21,8 +21,6 @@ import services17 from '../images/servicess/services17.webp'
 import services18 from '../images/servicess/services18.webp'
 
 const ServicesPage = () => {
-
-  const navigate = useNavigate();
 
   const services = [
     {
@@ -121,7 +119,7 @@ const ServicesPage = () => {
     <>
 
       <Helmet>
-        <title>Faaliyet Alanlarım - Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak - Faaliyet Alanlarım</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/services" />
         <meta
           name="description"
@@ -155,9 +153,9 @@ const ServicesPage = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto px-4">
               {services.map((service, index) => (
-                <div onClick={() => navigate(`/${service.slug}`)}
+                <Link to={`/${service.slug}`}
                   key={index}
-                  className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+                  className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer block"
                 >
                   <img
                     src={service.image}
@@ -182,7 +180,7 @@ const ServicesPage = () => {
                     </div>
 
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

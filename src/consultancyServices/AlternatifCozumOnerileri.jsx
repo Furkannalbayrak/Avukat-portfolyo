@@ -5,7 +5,7 @@ const AlternatifCozumOnerileri = () => {
   return (
     <>
       <Helmet>
-        <title>Alternatif Çözüm Önerileri - Hukuki Danışmanlık | Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak | Alternatif Çözüm Önerileri - Hukuki Danışmanlık</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/alternatif-cozum-onerileri" />
         <meta
           name="description"

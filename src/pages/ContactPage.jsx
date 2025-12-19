@@ -65,7 +65,7 @@ const ContactPage = () => {
     <>
 
       <Helmet>
-        <title>İletişim - Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak - İletişim</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/contact" />
         <meta name="description" content="Avukat Beyza Albayrak ile iletişime geçin. Hukuki danışmanlık ve destek için formu doldurun ya da iletişim bilgilerimizi kullanın." />
         <meta name="keywords" content="iletişim, avukat, hukuki danışmanlık, av. beyza albayrak, telefon, e-posta, adres" />

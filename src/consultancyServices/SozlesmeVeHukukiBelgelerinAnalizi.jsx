@@ -5,7 +5,7 @@ const SozlesmeVeHukukiBelgelerinAnalizi = () => {
   return (
     <>
       <Helmet>
-        <title>Sözleşme ve Hukuki Belgelerin Analizi | Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak | Sözleşme ve Hukuki Belgelerin Analizi</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/sozlesme-ve-hukuki-belgelerin-analizi" />
         <meta
           name="description"

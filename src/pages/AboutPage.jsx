@@ -1,16 +1,14 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 function AboutPage() {
-
-  const navigate = useNavigate();
 
   return (
     <>
 
       <Helmet>
-        <title>Hakkımda - Av. Beyza Albayrak | Hukuki Danışmanlık</title>
+        <title>Av. Beyza Albayrak - Hakkımda | Hukuki Danışmanlık</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/about" />
         <meta name="description" content="Av. Beyza Albayrak'ın uzmanlık alanları, mesleki deneyimi ve hukuki hizmet anlayışı hakkında detaylı bilgi." />
         <meta name="keywords" content="Avukat Beyza Albayrak, Hukuki Danışmanlık, Ceza Hukuku, İş Hukuku, Aile Hukuku, Miras Hukuku" />
@@ -193,10 +191,10 @@ function AboutPage() {
               <p className="text-lg mb-6 opacity-90">
                 Deneyimim ve uzmanlığımla, hukuki problemlerinize en uygun çözümleri bulmanıza yardımcı olacağım.
               </p>
-              <button onClick={() => navigate("/contact")}
-                className="bg-white text-blue-800 px-8 py-3 rounded-lg font-semibold hover:bg-purple-200 transition-colors">
+              <Link to="/contact"
+                className="bg-white text-blue-800 px-8 py-3 rounded-lg font-semibold hover:bg-purple-200 transition-colors inline-block">
                 Hemen İletişime Geçin
-              </button>
+              </Link>
             </div>
           </div>
 

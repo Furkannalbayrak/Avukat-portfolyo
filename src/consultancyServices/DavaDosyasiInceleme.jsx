@@ -5,7 +5,7 @@ const DavaDosyasiInceleme = () => {
   return (
     <>
       <Helmet>
-        <title>Dava Dosyası İnceleme - Hukuki Danışmanlık | Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak | Dava Dosyası İnceleme - Hukuki Danışmanlık</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/dava-dosyasi-inceleme" />
         <meta
           name="description"

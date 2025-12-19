@@ -5,7 +5,7 @@ const KurumsalDanismanlik = () => {
   return (
     <>
       <Helmet>
-        <title>Kurumsal Danışmanlık - Strateji ve Risk Yönetimi | Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak | Kurumsal Danışmanlık - Strateji ve Risk Yönetimi</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/kurumsal-danismanlik" />
         <meta
           name="description"

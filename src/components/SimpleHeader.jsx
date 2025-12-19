@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import logo from '../images/logo6.webp'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'; // 🔹 Hamburger ikonları
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import simpleHeaderImage from '../images/simpleHeader/simpleHeaderr.webp'
 
 function SimpleHeader() {
-
-    const navigate = useNavigate();
 
     const [bgIndex, setBgIndex] = useState(0);
     const [menuOpen, setMenuOpen] = useState(false);
@@ -27,7 +25,7 @@ function SimpleHeader() {
     return (
         <>
             <Helmet>
-                <title>Avukat Beyza Albayrak | İstanbul</title>
+                <title>Av. Beyza Albayrak | İstanbul</title>
                 <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/" />
                 <meta name="description" content="Av. Beyza Albayrak - İstanbul merkezli, uzman hukuk hizmetleri sunar. Ceza, borçlar, aile, icra hukuku ve daha fazlası." />
                 <meta name="keywords" content="avukat, İstanbul avukat, ceza hukuku, aile hukuku, icra iflas hukuku, beyza albayrak" />
@@ -83,33 +81,37 @@ function SimpleHeader() {
                     <div className='flex-grow '>
 
                         <ul className='hidden lg:flex lg:flex-row flex-wrap gap-3 sm:gap-2 mt-10'>
-                            <li onClick={() => navigate("/")}
-                                className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Anasayfa</li>
-                            <li onClick={() => navigate("/about")}
-                                className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Hakkımda</li>
+                            <li className='font-poppins xl:text-xl lg:text-lg'>
+                                <Link to="/" className='border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer block'>Anasayfa</Link>
+                            </li>
+                            <li className='font-poppins xl:text-xl lg:text-lg'>
+                                <Link to="/about" className='border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer block'>Hakkımda</Link>
+                            </li>
 
                             <li
                                 className='relative group font-poppins xl:text-xl lg:text-lg py-2 px-3'>
-                                <span onClick={() => navigate("/services")} className='cursor-pointer border-2 border-transparent group-hover:border-b-white pb-1 inline-block'>
+                                <Link to="/services" className='cursor-pointer border-2 border-transparent group-hover:border-b-white pb-1 inline-block'>
                                     Faaliyet Alanlarım
-                                </span>
+                                </Link>
                                 <ul className='absolute hidden text-lg group-hover:block bg-black text-white mt-2 rounded shadow-lg w-60 z-10'>
-                                    <li onClick={() => navigate("/ceza-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Ceza Hukuku</li>
-                                    <li onClick={() => navigate("/borclar-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Borçlar Hukuku</li>
-                                    <li onClick={() => navigate("/is-ve-sosyal-guvenlik-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>İş ve Sosyal Güvenlik Hukuku</li>
-                                    <li onClick={() => navigate("/idare-ve-vergi-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>İdare ve Vergi Hukuku</li>
-                                    <li onClick={() => navigate("/aile-ve-miras-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Aile ve Miras Hukuku</li>
-                                    <li onClick={() => navigate("/kira-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Kira Hukuku</li>
-                                    <li onClick={() => navigate("/tazminat-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Tazminat Hukuku</li>
-                                    <li onClick={() => navigate("/icra-ve-iflas-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>İcra ve İflas Hukuku</li>
-                                    <li onClick={() => navigate("/yabancilar-hukuku")} className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer'>Yabancılar Hukuku</li>
+                                    <li><Link to="/ceza-hukuku" className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer block'>Ceza Hukuku</Link></li>
+                                    <li><Link to="/borclar-hukuku" className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer block'>Borçlar Hukuku</Link></li>
+                                    <li><Link to="/is-ve-sosyal-guvenlik-hukuku" className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer block'>İş ve Sosyal Güvenlik Hukuku</Link></li>
+                                    <li><Link to="/idare-ve-vergi-hukuku" className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer block'>İdare ve Vergi Hukuku</Link></li>
+                                    <li><Link to="/aile-ve-miras-hukuku" className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer block'>Aile ve Miras Hukuku</Link></li>
+                                    <li><Link to="/kira-hukuku" className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer block'>Kira Hukuku</Link></li>
+                                    <li><Link to="/tazminat-hukuku" className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer block'>Tazminat Hukuku</Link></li>
+                                    <li><Link to="/icra-ve-iflas-hukuku" className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer block'>İcra ve İflas Hukuku</Link></li>
+                                    <li><Link to="/yabancilar-hukuku" className='px-4 py-2 transition duration-150 hover:bg-gray-500 cursor-pointer block'>Yabancılar Hukuku</Link></li>
                                 </ul>
                             </li>
 
-                            <li onClick={() => navigate("/mevzuat")}
-                                className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer'>Mevzuat</li>
-                            <li onClick={() => navigate("/contact")}
-                                className='font-poppins xl:text-xl lg:text-lg border-2 border-transparent hover:border-b-white py-2 px-2 cursor-pointer'>İletişim</li>
+                            <li className='font-poppins xl:text-xl lg:text-lg'>
+                                <Link to="/mevzuat" className='border-2 border-transparent hover:border-b-white py-2 px-3 cursor-pointer block'>Mevzuat</Link>
+                            </li>
+                            <li className='font-poppins xl:text-xl lg:text-lg'>
+                                <Link to="/contact" className='border-2 border-transparent hover:border-b-white py-2 px-2 cursor-pointer block'>İletişim</Link>
+                            </li>
                         </ul>
 
                     </div>
@@ -130,58 +132,41 @@ function SimpleHeader() {
                             aria-label="Mobile menu"
                         >
                             <ul className='flex flex-col gap-4 text-lg font-poppins'>
-                                <li
-                                    className='py-2 px-3 rounded hover:bg-gray-700 cursor-pointer'
-                                    onClick={() => {
-                                        setMenuOpen(false);
-                                        navigate("/")
-                                    }}
-                                >
-                                    Anasayfa
+                                <li className='rounded hover:bg-gray-700 cursor-pointer'>
+                                    <Link to="/" className="block py-2 px-3" onClick={() => setMenuOpen(false)}>
+                                        Anasayfa
+                                    </Link>
                                 </li>
-                                <li
-                                    className='py-2 px-3 rounded hover:bg-gray-700 cursor-pointer'
-                                    onClick={() => {
-                                        setMenuOpen(false);
-                                        navigate("/about")
-                                    }}
-                                >
-                                    Hakkımda
+                                <li className='rounded hover:bg-gray-700 cursor-pointer'>
+                                    <Link to="/about" className="block py-2 px-3" onClick={() => setMenuOpen(false)}>
+                                        Hakkımda
+                                    </Link>
                                 </li>
                                 <li className='py-2 px-3 rounded hover:bg-gray-700 cursor-pointer flex flex-col'
                                     onClick={() => setMenuOpen(false)}
                                 >
-                                    <span onClick={() => navigate("/services")}
-                                    >Faaliyet Alanlarım</span>
+                                    <Link to="/services">Faaliyet Alanlarım</Link>
                                     <ul className='mt-2 ml-4 border-l border-gray-600 pl-3 space-y-2 text-gray-300 text-base'>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/ceza-hukuku") }} >Ceza Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/borclar-hukuku") }}>Borçlar Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/is-ve-sosyal-guvenlik-hukuku") }}>İş ve Sosyal Güvenlik Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/idare-ve-vergi-hukuku") }}>İdare ve Vergi Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/aile-ve-miras-hukuku") }}>Aile ve Miras Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/kira-hukuku") }}>Kira Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/tazminat-hukuku") }}>Tazminat Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/icra-ve-iflas-hukuku") }}>İcra ve İflas Hukuku</li>
-                                        <li className='hover:text-gray-100 cursor-pointer' onClick={() => { setMenuOpen(false); navigate("/yabancilar-hukuku") }}>Yabancılar Hukuku</li>
+                                        <li className='hover:text-gray-100 cursor-pointer'><Link to="/ceza-hukuku" onClick={() => setMenuOpen(false)}>Ceza Hukuku</Link></li>
+                                        <li className='hover:text-gray-100 cursor-pointer'><Link to="/borclar-hukuku" onClick={() => setMenuOpen(false)}>Borçlar Hukuku</Link></li>
+                                        <li className='hover:text-gray-100 cursor-pointer'><Link to="/is-ve-sosyal-guvenlik-hukuku" onClick={() => setMenuOpen(false)}>İş ve Sosyal Güvenlik Hukuku</Link></li>
+                                        <li className='hover:text-gray-100 cursor-pointer'><Link to="/idare-ve-vergi-hukuku" onClick={() => setMenuOpen(false)}>İdare ve Vergi Hukuku</Link></li>
+                                        <li className='hover:text-gray-100 cursor-pointer'><Link to="/aile-ve-miras-hukuku" onClick={() => setMenuOpen(false)}>Aile ve Miras Hukuku</Link></li>
+                                        <li className='hover:text-gray-100 cursor-pointer'><Link to="/kira-hukuku" onClick={() => setMenuOpen(false)}>Kira Hukuku</Link></li>
+                                        <li className='hover:text-gray-100 cursor-pointer'><Link to="/tazminat-hukuku" onClick={() => setMenuOpen(false)}>Tazminat Hukuku</Link></li>
+                                        <li className='hover:text-gray-100 cursor-pointer'><Link to="/icra-ve-iflas-hukuku" onClick={() => setMenuOpen(false)}>İcra ve İflas Hukuku</Link></li>
+                                        <li className='hover:text-gray-100 cursor-pointer'><Link to="/yabancilar-hukuku" onClick={() => setMenuOpen(false)}>Yabancılar Hukuku</Link></li>
                                     </ul>
                                 </li>
-                                <li
-                                    className='py-2 px-3 rounded hover:bg-gray-700 cursor-pointer'
-                                    onClick={() => {
-                                        setMenuOpen(false);
-                                        navigate("/mevzuat")
-                                    }}
-                                >
-                                    Mevzuat
+                                <li className='rounded hover:bg-gray-700 cursor-pointer'>
+                                    <Link to="/mevzuat" className="block py-2 px-3" onClick={() => setMenuOpen(false)}>
+                                        Mevzuat
+                                    </Link>
                                 </li>
-                                <li
-                                    className='py-2 px-3 rounded hover:bg-gray-700 cursor-pointer'
-                                    onClick={() => {
-                                        setMenuOpen(false);
-                                        navigate("/contact")
-                                    }}
-                                >
-                                    İletişim
+                                <li className='rounded hover:bg-gray-700 cursor-pointer'>
+                                    <Link to="/contact" className="block py-2 px-3" onClick={() => setMenuOpen(false)}>
+                                        İletişim
+                                    </Link>
                                 </li>
                             </ul>
                         </aside>

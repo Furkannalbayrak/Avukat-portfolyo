@@ -1,11 +1,9 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaFacebook, FaTwitter, FaLinkedin, FaWhatsapp, FaInstagram } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 const Footer = () => {
-
-  const navigate = useNavigate();
 
   return (
     <>
@@ -77,24 +75,24 @@ const Footer = () => {
             <div className='text-lg flex flex-col md:items-center items-start mb-12 md:mb-0 ml-6 lg:ml-0'>
               <h3 className="text-2xl font-semibold md:mb-6 mb-4">Hızlı Linkler</h3>
               <ul className="space-y-2">
-                <li onClick={() => navigate("/")} className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Anasayfa</li>
-                <li onClick={() => navigate("/about")} className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Hakkımda</li>
-                <li onClick={() => navigate("/services")} className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Faaliyet Alanlarım</li>
-                <li onClick={() => navigate("/mevzuat")} className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">Mevzuat</li>
-                <li onClick={() => navigate("/contact")} className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer">İletişim</li>
+                <li><Link to="/" className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer block">Anasayfa</Link></li>
+                <li><Link to="/about" className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer block">Hakkımda</Link></li>
+                <li><Link to="/services" className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer block">Faaliyet Alanlarım</Link></li>
+                <li><Link to="/mevzuat" className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer block">Mevzuat</Link></li>
+                <li><Link to="/contact" className="text-gray-400 hover:text-white  w-auto md:text-center text-left cursor-pointer block">İletişim</Link></li>
               </ul>
             </div>
 
             <div className=' flex flex-col md:items-center items-start md:pr-8 xl:pr-0 ml-6 lg:ml-0'>
               <h3 className="text-2xl font-semibold md:mb-6 mb-4 ">Sosyal Medya</h3>
               <div className="flex space-x-4 mt-4">
-                <a href="https://wa.me/905432238441" target='_blank' className="text-gray-400 hover:text-white">
+                <a href="https://wa.me/905432238441" target='_blank' rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                   <FaWhatsapp className="text-4xl" />
                 </a>
-                <a href="https://www.instagram.com/" target='_blank' className="text-gray-400 hover:text-white">
+                <a href="https://www.instagram.com/" target='_blank' rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                   <FaInstagram className="text-4xl" />
                 </a>
-                <a href="https://www.linkedin.com/in/beyza-albayrak-108b6421a/?originalSubdomain=tr" target='_blank' className="text-gray-400 hover:text-white">
+                <a href="https://www.linkedin.com/in/beyza-albayrak-108b6421a/?originalSubdomain=tr" target='_blank' rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                   <FaLinkedin className="text-4xl" />
                 </a>
               </div>

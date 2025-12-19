@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import consultancyServices1 from '../images/consultancyServices/consultancyServices1.webp'
 import consultancyServices2 from '../images/consultancyServices/consultancyServices2.webp'
@@ -12,8 +12,6 @@ import consultancyServices8 from '../images/consultancyServices/consultancyServi
 import consultancyServices9 from '../images/consultancyServices/consultancyServices9.webp'
 
 const ConsultancyServicesPage = () => {
-
-  const navigate = useNavigate()
 
   const consultancyServices = [
     {
@@ -66,7 +64,7 @@ const ConsultancyServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Hukuki Danışmanlık Hizmetleri - Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak - Hukuki Danışmanlık Hizmetleri</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/consultancy-services" />
         <meta name="description" content="Avukat Beyza Albayrak tarafından sunulan kapsamlı hukuki danışmanlık hizmetleri." />
         <meta name="keywords" content="hukuki danışmanlık, şirket hukuku, sözleşme analizi, önleyici hukuki danışmanlık, noter işleri" />
@@ -91,9 +89,9 @@ const ConsultancyServicesPage = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto px-4">
               {consultancyServices.map((service, index) => (
-                <div onClick={() => navigate(`/${service.slug}`)}
+                <Link to={`/${service.slug}`}
                   key={index}
-                  className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+                  className="bg-white rounded-xl shadow-lg p-4 lg:h-[330px] h-[300px] hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer block"
                 >
                   <img
                     src={service.image}
@@ -118,7 +116,7 @@ const ConsultancyServicesPage = () => {
                     </div>
 
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

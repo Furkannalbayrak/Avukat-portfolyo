@@ -27,7 +27,7 @@ const Articles = () => {
   return (
     <>
       <Helmet>
-        <title>Mevzuat ve Yargıtay Kararları | Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak | Mevzuat ve Yargıtay Kararları</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/mevzuat" />
         <meta
           name="description"

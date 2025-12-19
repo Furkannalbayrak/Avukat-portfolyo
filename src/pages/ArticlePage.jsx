@@ -28,7 +28,7 @@ const ArticlePage = () => {
     <>
 
       <Helmet>
-        <title>Mevzuat & Hukuki Makaleler - Av. Beyza Albayrak</title>
+        <title>Av. Beyza Albayrak - Mevzuat & Hukuki Makaleler</title>
         <link rel="canonical" href="https://www.beyzaalbayrak.com.tr/mevzuat" />
         <meta name="description" content="Avukat Beyza Albayrak tarafından paylaşılan güncel mevzuat ve hukuki makaleler." />
         <meta name="keywords" content="hukuki makaleler, mevzuat, yargıtay kararları, iş hukuku, avukat Beyza Albayrak" />
