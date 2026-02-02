@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../images/logo6.webp'
+import logo from '../images/logo9.png'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'; // 🔹 Hamburger ikonları
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
@@ -82,7 +82,7 @@ function Header() {
                 <div className='flex text-white xl:max-w-6xl xl:gap-4 lg:max-w-[970px]  mx-auto  '>
 
                     <div className='flex justify-center lg:justify-start w-full lg:w-auto '>
-                        <img src={logo} alt="" className='xl:w-[350px] lg:w-80 w-[430px] ml-5 lg:ml-0 loading="lazy" ' />
+                        <img src={logo} alt="" loading='lazy' className='xl:w-[350px] lg:w-80 w-[430px] lg:ml-0 '/>
                     </div>
 
                     <div className='absolute right-5 top-4 lg:hidden z-30'>
@@ -144,7 +144,7 @@ function Header() {
                             <div className='mt-8 space-x-6'>
                                 <Link to="/consultancy-services"
                                     className='bg-white text-black text-md md:text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-36 md:w-44 inline-block'>
-                                    Detaylı bilgi al
+                                    Detaylı Bilgi Al
                                 </Link>
                                 <Link to="/contact"
                                     className='bg-white text-black text-md md:text-lg py-3 rounded-lg font-semibold hover:bg-gray-400 transition-all duration-300 shadow-lg w-36 md:w-44 inline-block'>
